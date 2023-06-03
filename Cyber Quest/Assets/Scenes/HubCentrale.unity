@@ -726,6 +726,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3a954679d4d04b49953424fc6bf526c, type: 3}
+--- !u!114 &155441453 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 756889458197268236, guid: d79e93fc083a27d48ad4610de3cba688, type: 3}
+  m_PrefabInstance: {fileID: 1074957497}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &168199495
 GameObject:
   m_ObjectHideFlags: 0
@@ -1427,7 +1438,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 471944371}
-  m_LocalRotation: {x: 0.070889026, y: 0.00000001664324, z: -0.0000000011827987, w: 0.9974842}
+  m_LocalRotation: {x: 0.070889026, y: 0.000000016643241, z: -0.0000000011827989, w: 0.9974842}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2506,6 +2517,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac7a01ca06ca9044eb15b32cb7a936f8, type: 3}
+--- !u!1 &1011065989 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2869695913713960778, guid: ac7a01ca06ca9044eb15b32cb7a936f8, type: 3}
+  m_PrefabInstance: {fileID: 1011065988}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1011065990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011065989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0eb1f617b7543be920f3747eedb043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pulsanteInterazione: {fileID: 2120040876}
+  trigger: {fileID: 1011065989}
+  animator: {fileID: 0}
+  IDporta: portaPass
 --- !u!1001 &1017096823
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2832,6 +2864,41 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d79e93fc083a27d48ad4610de3cba688, type: 3}
+--- !u!1 &1074957498 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3486502325540992174, guid: d79e93fc083a27d48ad4610de3cba688, type: 3}
+  m_PrefabInstance: {fileID: 1074957497}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1074957499 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2338317117389128864, guid: d79e93fc083a27d48ad4610de3cba688, type: 3}
+  m_PrefabInstance: {fileID: 1074957497}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1074957500 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4200165869604810870, guid: d79e93fc083a27d48ad4610de3cba688, type: 3}
+  m_PrefabInstance: {fileID: 1074957497}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1074957501 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3069727346867334164, guid: d79e93fc083a27d48ad4610de3cba688, type: 3}
+  m_PrefabInstance: {fileID: 1074957497}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1074957502 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7848900157125626263, guid: d79e93fc083a27d48ad4610de3cba688, type: 3}
+  m_PrefabInstance: {fileID: 1074957497}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1074957503 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6115266036218784424, guid: d79e93fc083a27d48ad4610de3cba688, type: 3}
+  m_PrefabInstance: {fileID: 1074957497}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1074957504 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 744443070928476935, guid: d79e93fc083a27d48ad4610de3cba688, type: 3}
+  m_PrefabInstance: {fileID: 1074957497}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1090382680
 GameObject:
   m_ObjectHideFlags: 0
@@ -4805,7 +4872,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 543f3f3ffdf258243b4b079274931c5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  chiaveTut: {fileID: 1074957504}
+  chiavePass: {fileID: 1074957503}
+  chiavePhis: {fileID: 1074957502}
+  chiaveMalw: {fileID: 1074957501}
+  veleno: {fileID: 1074957500}
+  mascherina: {fileID: 1074957499}
+  occhiali: {fileID: 1074957498}
   inventario: {fileID: 1852998113}
+  testoObiettivo: {fileID: 155441453}
 --- !u!1 &1714213775
 GameObject:
   m_ObjectHideFlags: 0
@@ -6000,4 +6075,9 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 465744, guid: f3a954679d4d04b49953424fc6bf526c, type: 3}
   m_PrefabInstance: {fileID: 368075110}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2120040876 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 756889459328902688, guid: d79e93fc083a27d48ad4610de3cba688, type: 3}
+  m_PrefabInstance: {fileID: 1074957497}
   m_PrefabAsset: {fileID: 0}

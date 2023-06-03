@@ -48,8 +48,8 @@ public class Chiave : MonoBehaviour
                 pulsanteInterazione.SetActive(false);
                 istaken = true;
                 chiave.SetActive(false);
+                Inventario.obiettiviTut[0] = "";
                 Inventario.vettoreInv[0] = 1;
-                //iconaChiave.SetActive(true);
             }
         }
         if (Input.GetMouseButtonDown(0) && Dialogue.hasReadDialogues) {
