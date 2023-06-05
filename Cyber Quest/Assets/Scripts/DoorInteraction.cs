@@ -28,7 +28,7 @@ public class DoorInteraction : MonoBehaviour {
     }
 
     void OnTriggerEnter(Collider other) {
-        if (other.gameObject.CompareTag("Player") && Chiave.hasReadDialoguesKey) {
+        if (other.gameObject.CompareTag("Player") && ChiaveTutorial.hasReadDialoguesKey) {
             Debug.Log("Il player è entrato nel cubo");
             Interact();
         }
