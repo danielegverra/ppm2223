@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1438,7 +1438,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 471944371}
-  m_LocalRotation: {x: 0.070889026, y: 0.000000016643241, z: -0.0000000011827989, w: 0.9974842}
+  m_LocalRotation: {x: 0.07088901, y: -0.000000018227158, z: 0.0000000012953639, w: 0.9974842}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2515,7 +2515,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1139445049976064788, guid: ac7a01ca06ca9044eb15b32cb7a936f8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ac7a01ca06ca9044eb15b32cb7a936f8, type: 3}
 --- !u!1 &1011065989 stripped
 GameObject:
@@ -2857,6 +2858,27 @@ PrefabInstance:
     - target: {fileID: 756889457650742234, guid: d79e93fc083a27d48ad4610de3cba688, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 756889458938930920, guid: d79e93fc083a27d48ad4610de3cba688, type: 3}
+      propertyPath: lines.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 756889458938930920, guid: d79e93fc083a27d48ad4610de3cba688, type: 3}
+      propertyPath: lines.Array.data[0]
+      value: Benvenuto nell'Hub Centrale, da questo punto potrai raggiungere tutte
+        le altre ambientazioni.
+      objectReference: {fileID: 0}
+    - target: {fileID: 756889458938930920, guid: d79e93fc083a27d48ad4610de3cba688, type: 3}
+      propertyPath: lines.Array.data[1]
+      value: Le porte che vedi portano alle sfide di Cyber Quest, in ognuna di esse
+      objectReference: {fileID: 0}
+    - target: {fileID: 756889458938930920, guid: d79e93fc083a27d48ad4610de3cba688, type: 3}
+      propertyPath: lines.Array.data[2]
+      value: dovrai trovare una delle chiavi del portone principale.
+      objectReference: {fileID: 0}
+    - target: {fileID: 756889458938930920, guid: d79e93fc083a27d48ad4610de3cba688, type: 3}
+      propertyPath: lines.Array.data[3]
+      value: Una volta raccolte tutte e attivati gli altari potrai terminare la partita.
       objectReference: {fileID: 0}
     - target: {fileID: 756889459358189959, guid: d79e93fc083a27d48ad4610de3cba688, type: 3}
       propertyPath: m_IsActive
@@ -4109,6 +4131,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1480266175}
   m_CullTransparentMesh: 1
+--- !u!114 &1494313333 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 756889457477794128, guid: d79e93fc083a27d48ad4610de3cba688, type: 3}
+  m_PrefabInstance: {fileID: 1074957497}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1535567256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4284,7 +4317,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1595575999}
-  m_LocalRotation: {x: 0.052733563, y: -0.000000017182442, z: 9.073538e-10, w: 0.99860865}
+  m_LocalRotation: {x: 0.052733563, y: 0.00000001718244, z: -9.0735375e-10, w: 0.99860865}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4872,6 +4905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 543f3f3ffdf258243b4b079274931c5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  points: {fileID: 1494313333}
   chiaveTut: {fileID: 1074957504}
   chiavePass: {fileID: 1074957503}
   chiavePhis: {fileID: 1074957502}
@@ -5337,7 +5371,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1864607352}
-  m_LocalRotation: {x: 0.05273357, y: -0.000000034565655, z: 0.0000000018253099, w: 0.99860865}
+  m_LocalRotation: {x: 0.05273357, y: 0.000000034565655, z: -0.0000000018253099, w: 0.99860865}
   m_LocalPosition: {x: -2.637, y: 1.54, z: -8.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

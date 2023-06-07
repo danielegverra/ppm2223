@@ -9,7 +9,7 @@ public class ChiavePassword : MonoBehaviour
     public GameObject pulsanteAvvisoDialogo;
     public GameObject trigger;
     public GameObject chiave;
-    //public GameObject iconaChiave;
+    public GameObject teletrasporto;
     bool istaken = false;
     bool isClose=false;
 
@@ -36,6 +36,9 @@ public class ChiavePassword : MonoBehaviour
                 chiave.SetActive(false);
                 Inventario.obiettiviPass[0] = "";
                 Inventario.vettoreInv[1] = 1;
+                if(Inventario.obiettiviPass[1] == ""){
+                    teletrasporto.SetActive(true);
+                }
             }
         }
     }

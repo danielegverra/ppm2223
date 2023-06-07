@@ -24,7 +24,6 @@ public class PortePassword : MonoBehaviour {
                 camera.SetActive(false);
                 pulsanteInterazione.SetActive(false);
                 mostraDomanda();
-                //Inventario.obiettiviTut[1] = "";
             }
 
         }
@@ -36,6 +35,7 @@ public class PortePassword : MonoBehaviour {
                     animator.SetTrigger("character_nearby");
                     clickRisposta = 4;
                     camera.SetActive(true);
+                    Inventario.nPoints += 10;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -47,6 +47,7 @@ public class PortePassword : MonoBehaviour {
                     animator.SetTrigger("character_nearby");
                     clickRisposta = 4;
                     camera.SetActive(true);
+                    Inventario.nPoints += 10;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -58,6 +59,7 @@ public class PortePassword : MonoBehaviour {
                     animator.SetTrigger("character_nearby");
                     clickRisposta = 4;
                     camera.SetActive(true);
+                    Inventario.nPoints += 10;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -69,6 +71,7 @@ public class PortePassword : MonoBehaviour {
                     animator.SetTrigger("character_nearby");
                     clickRisposta = 4;
                     camera.SetActive(true);
+                    Inventario.nPoints += 10;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -80,17 +83,19 @@ public class PortePassword : MonoBehaviour {
                     animator.SetTrigger("character_nearby");
                     clickRisposta = 4;
                     camera.SetActive(true);
+                    Inventario.nPoints += 10;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
                 }
             } else if(IDporta=="portaPass6"){
-                if(clickRisposta == 3){
+                if(clickRisposta == 2){
                     personaggio.SetActive(true);
                     riquadroDomanda.SetActive(false);
                     animator.SetTrigger("character_nearby");
                     clickRisposta = 4;
                     camera.SetActive(true);
+                    Inventario.nPoints += 10;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -102,6 +107,7 @@ public class PortePassword : MonoBehaviour {
                     animator.SetTrigger("character_nearby");
                     clickRisposta = 4;
                     camera.SetActive(true);
+                    Inventario.nPoints += 10;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -113,6 +119,7 @@ public class PortePassword : MonoBehaviour {
                     animator.SetTrigger("character_nearby");
                     clickRisposta = 4;
                     camera.SetActive(true);
+                    Inventario.nPoints += 10;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -124,6 +131,7 @@ public class PortePassword : MonoBehaviour {
                     animator.SetTrigger("character_nearby");
                     clickRisposta = 4;
                     camera.SetActive(true);
+                    Inventario.nPoints += 10;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -135,6 +143,7 @@ public class PortePassword : MonoBehaviour {
                     animator.SetTrigger("character_nearby");
                     clickRisposta = 4;
                     camera.SetActive(true);
+                    Inventario.nPoints += 10;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -146,6 +155,7 @@ public class PortePassword : MonoBehaviour {
                     animator.SetTrigger("character_nearby");
                     clickRisposta = 4;
                     camera.SetActive(true);
+                    Inventario.nPoints += 10;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -157,6 +167,7 @@ public class PortePassword : MonoBehaviour {
                     animator.SetTrigger("character_nearby");
                     clickRisposta = 4;
                     camera.SetActive(true);
+                    Inventario.nPoints += 10;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -294,6 +305,7 @@ public class PortePassword : MonoBehaviour {
     }
 
     public void perdiVita() {
+        Inventario.nPoints -= 5;
         ControlloHp.hpInt--;
     }
 

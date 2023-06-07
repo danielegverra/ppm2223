@@ -16,6 +16,9 @@ public class Inventario : MonoBehaviour
     public static string[] obiettiviPass = {"Trova la chiave del portone", "Trova il potenziamento", "Raccogli i collezionabili"};
     public static string[] obiettiviPhis = {"impedisci al ladro di rubare", "raccogli i collezionabili"};
     public static string[] obiettiviMalw = {"difendi il nucleo", "raccogli i collezionabili"};
+    public static int nPoints = 0;
+
+    public TextMeshProUGUI points;
 
 
     public GameObject chiaveTut;
@@ -37,6 +40,7 @@ public class Inventario : MonoBehaviour
 
     // Update is called once per frame
     void Update(){
+        points.SetText(nPoints.ToString());
         if(Input.GetKeyDown(KeyCode.I)){
             if(!isopen){
                 controllaPresenze();
@@ -69,7 +73,14 @@ public class Inventario : MonoBehaviour
                 }
             }
         }
-        
+        if(SceneManager.GetActiveScene().name == "PasswordAmbientazione"){
+            foreach (string obiettivo in obiettiviPass){
+                if (obiettivo != "" ){
+                    obVisualizzato += obiettivo;
+                    obVisualizzato += "\n\n"; 
+                }
+            }
+        }
 
 
         testoObiettivo.SetText(obVisualizzato);

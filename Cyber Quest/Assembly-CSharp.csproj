@@ -37,17 +37,31 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Pausa.cs" />
+     <Compile Include="Assets\Scripts\ControlloHp.cs" />
      <Compile Include="Assets\Scripts\Opzioni.cs" />
+     <Compile Include="Assets\Scripts\Dialogue.cs" />
+     <Compile Include="Assets\Scripts\PortePassword.cs" />
+     <Compile Include="Assets\Scripts\ChiaveTutorial.cs" />
+     <Compile Include="Assets\FROOD\Scripts\Spin.cs" />
+     <Compile Include="Assets\Scripts\ChiavePassword.cs" />
+     <Compile Include="Assets\Scripts\Item.cs" />
+     <Compile Include="Assets\Scripts\Inventario.cs" />
      <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\DemoFree.cs" />
      <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\SimpleSampleCharacterControl.cs" />
+     <Compile Include="Assets\Scripts\Veleno.cs" />
      <Compile Include="Assets\Scripts\Menu.cs" />
+     <Compile Include="Assets\Scripts\Teletrasporto.cs" />
+     <Compile Include="Assets\Scripts\DoorInteraction.cs" />
      <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\FreeCameraLogic.cs" />
+     <Compile Include="Assets\AurynSky\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
+     <Compile Include="Assets\Scripts\Collezionabile.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\Supercyan Character Pack Free Sample\Shaders\Legacy\CelShader.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\AurynSky\Gems Ultimate Pack\READ ME.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Supercyan Character Pack Free Sample\Shaders\SupercyanShader.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
@@ -314,10 +328,10 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -686,82 +700,82 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-        <HintPath>C:\Users\nicla\OneDrive\Desktop\progetto_ppm_gruppo_10\Cyber Quest\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+        <HintPath>C:\Users\nicla\OneDrive\Desktop\cyber-quest\Cyber Quest\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -20,16 +20,15 @@ public class DoorInteraction : MonoBehaviour {
                 trigger.SetActive(false);
                 SceneManager.LoadScene("PasswordAmbientazione");
                 pulsanteInterazione.SetActive(false);
-                Inventario.obiettiviTut[1] = "";
             }
-
-
         }
     }
 
     void OnTriggerEnter(Collider other) {
-        if (other.gameObject.CompareTag("Player") && ChiaveTutorial.hasReadDialoguesKey) {
-            Debug.Log("Il player è entrato nel cubo");
+        if (other.gameObject.CompareTag("Player") && IDporta == "portaTut" && ChiaveTutorial.hasReadDialoguesKey) {
+            Interact();
+        }
+        if (other.gameObject.CompareTag("Player") && IDporta != "portaTut") {
             Interact();
         }
     }
