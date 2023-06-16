@@ -14,7 +14,7 @@ public class Inventario : MonoBehaviour
     public static string[] obiettiviTut = {"Prendi la chiave", "Apri la porta", "Entra nel cerchio magico"};
     public static string[] obiettiviHub = {"Termina le 3 prove", "Attiva i 4 altari" , "Apri il portone"};
     public static string[] obiettiviPass = {"Trova la chiave del portone", "Trova il potenziamento", "Raccogli i collezionabili"};
-    public static string[] obiettiviPhis = {"impedisci al ladro di rubare", "raccogli i collezionabili"};
+    public static string[] obiettiviPhis = {"Completa il puzzle", "Trova la chiave del portone", "Raccogli i collezionabili"};
     public static string[] obiettiviMalw = {"difendi il nucleo", "raccogli i collezionabili"};
     public static int nPoints = 0;
 
@@ -74,6 +74,14 @@ public class Inventario : MonoBehaviour
             }
         }
         if(SceneManager.GetActiveScene().name == "PasswordAmbientazione"){
+            foreach (string obiettivo in obiettiviPass){
+                if (obiettivo != "" ){
+                    obVisualizzato += obiettivo;
+                    obVisualizzato += "\n\n"; 
+                }
+            }
+        }
+        if(SceneManager.GetActiveScene().name == "PhishingAmbientazione"){
             foreach (string obiettivo in obiettiviPass){
                 if (obiettivo != "" ){
                     obVisualizzato += obiettivo;

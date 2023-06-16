@@ -21,6 +21,16 @@ public class DoorInteraction : MonoBehaviour {
                 SceneManager.LoadScene("PasswordAmbientazione");
                 pulsanteInterazione.SetActive(false);
             }
+            if(Input.GetKeyDown(KeyCode.E) && IDporta == "portaPhis"){
+                animator.SetTrigger("character_nearby");
+                pulsanteInterazione.SetActive(false);
+                trigger.SetActive(false);
+            }if(Input.GetKeyDown(KeyCode.E) && IDporta == "portaPhisLivello"){
+                pulsanteInterazione.SetActive(false);
+                SceneManager.LoadScene("PhishingAmbientazione");
+                trigger.SetActive(false);
+            }
+
         }
     }
 
