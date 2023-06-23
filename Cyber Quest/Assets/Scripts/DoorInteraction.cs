@@ -29,8 +29,11 @@ public class DoorInteraction : MonoBehaviour {
                 pulsanteInterazione.SetActive(false);
                 SceneManager.LoadScene("PhishingAmbientazione");
                 trigger.SetActive(false);
+            }if(Input.GetKeyDown(KeyCode.E) && IDporta == "portoneFinale" && Altare.numeroPortaliAttivati == 3){
+                pulsanteInterazione.SetActive(false);
+                SceneManager.LoadScene("Menu");
+                trigger.SetActive(false);
             }
-
         }
     }
 
@@ -38,7 +41,10 @@ public class DoorInteraction : MonoBehaviour {
         if (other.gameObject.CompareTag("Player") && IDporta == "portaTut" && ChiaveTutorial.hasReadDialoguesKey) {
             Interact();
         }
-        if (other.gameObject.CompareTag("Player") && IDporta != "portaTut") {
+        if (other.gameObject.CompareTag("Player") && IDporta != "portaTut" && IDporta != "portoneFinale") {
+            Interact();
+        }
+        if (other.gameObject.CompareTag("Player") && IDporta == "portoneFinale" && Altare.numeroPortaliAttivati == 3){
             Interact();
         }
     }

@@ -11,8 +11,10 @@ public class Altare : MonoBehaviour
     bool isActivated = false;
     bool isClose = false;
 
-    public string IDaltare; 
-    static int numeroPortaliAttivati = 0;
+    static int[] altariAttivi={0,0,0};
+
+    public string IDaltare;
+    public static int numeroPortaliAttivati = 0;
 
     void OnTriggerEnter(Collider other) {
         if (other.gameObject.CompareTag("Player") && !isActivated && IDaltare == "altTut" && Inventario.vettoreInv[0] == 1){
@@ -45,7 +47,32 @@ public class Altare : MonoBehaviour
                 chiave.SetActive(true);
                 cerchio.SetActive(true);
                 numeroPortaliAttivati++;
+                if(IDaltare == "altTut"){
+                    altariAttivi[0]=1;
+                }else if(IDaltare == "altPass"){
+                    altariAttivi[1]=1;
+                }else if(IDaltare == "altPhis"){
+                    altariAttivi[2]=1;
+                }
             }
+        }
+    }
+
+    void Start() {
+        if(IDaltare == "altTut" && altariAttivi[0] == 1){
+            isActivated = true;
+            chiave.SetActive(true);
+            cerchio.SetActive(true);
+        }
+        if(IDaltare == "altPass" && altariAttivi[1] == 1){
+            isActivated = true;
+            chiave.SetActive(true);
+            cerchio.SetActive(true);
+        }
+        if(IDaltare == "altPhis" && altariAttivi[2] == 1){
+            isActivated = true;
+            chiave.SetActive(true);
+            cerchio.SetActive(true);
         }
     }
 }

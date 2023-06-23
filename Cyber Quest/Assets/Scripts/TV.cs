@@ -55,7 +55,7 @@ public class TV : MonoBehaviour
         }
         if(clickRisposta != 3 && isClose) {
             if(IDtv=="tv1"){
-                if(clickRisposta == 1){
+                if(clickRisposta == 2){
                     personaggio.SetActive(true);
                     riquadroDomanda.SetActive(false);
                     clickRisposta = 3;
@@ -75,7 +75,7 @@ public class TV : MonoBehaviour
                 }
             }
             else if(IDtv=="tv2"){
-                if(clickRisposta == 1){
+                if(clickRisposta == 2){
                     personaggio.SetActive(true);
                     riquadroDomanda.SetActive(false);
                     clickRisposta = 3;
@@ -94,7 +94,7 @@ public class TV : MonoBehaviour
                     perdiVita();
                 }
             }else if(IDtv=="tv3"){
-                if(clickRisposta == 1){
+                if(clickRisposta == 2){
                     personaggio.SetActive(true);
                     riquadroDomanda.SetActive(false);
                     clickRisposta = 3;
@@ -166,27 +166,27 @@ public class TV : MonoBehaviour
     void mostraDomanda(){
         if(IDtv == "tv1") {
             Cursor.visible = true;
-            testoDomanda.SetText("Ma quanto è gay fra?");
-            testoRisposta1.SetText("Tantissimissimo");
-            testoRisposta2.SetText("Si");
+            testoDomanda.SetText("Qual è una misura di sicurezza consigliata per proteggersi dal phishing?");
+            testoRisposta1.SetText("Fare clic su tutti i link in arrivo per verificare se sono autentici");
+            testoRisposta2.SetText("Verificare l'URL di un sito web prima di inserire informazioni personali");
             riquadroDomanda.SetActive(true);
         } else if(IDtv == "tv2") {
             Cursor.visible = true;
-            testoDomanda.SetText("Qual è il miglior approccio per creare una password sicura?");
-            testoRisposta1.SetText("Scegliere una frase di lunghezza significativa che includa parole chiave.");
-            testoRisposta2.SetText("Utilizzare una password basata sul proprio nome e data di nascita.");
+            testoDomanda.SetText("Qual è un modo efficace per verificare la sicurezza di un sito web prima di inserire informazioni sensibili?");
+            testoRisposta1.SetText("Condividere liberamente le informazioni richieste per accedere al sito");
+            testoRisposta2.SetText("Controllare se il sito web utilizza il protocollo HTTPS");
             riquadroDomanda.SetActive(true);
         } else if(IDtv == "tv3") {
             Cursor.visible = true;
-            testoDomanda.SetText("Qual è il miglior approccio per creare una password sicura?");
-            testoRisposta1.SetText("Scegliere una frase di lunghezza significativa che includa parole chiave.");
-            testoRisposta2.SetText("Utilizzare una password basata sul proprio nome e data di nascita.");
+            testoDomanda.SetText("Cosa potrebbe indicare una pagina di accesso di phishing?");
+            testoRisposta1.SetText("L'utilizzo di colori vivaci e attraenti sulla pagina");
+            testoRisposta2.SetText("L'assenza del logo dell'azienda o di elementi di branding");
             riquadroDomanda.SetActive(true);
         } else if(IDtv == "tv4") {
             Cursor.visible = true;
-            testoDomanda.SetText("Qual è il miglior approccio per creare una password sicura?");
-            testoRisposta1.SetText("Scegliere una frase di lunghezza significativa che includa parole chiave.");
-            testoRisposta2.SetText("Utilizzare una password basata sul proprio nome e data di nascita.");
+            testoDomanda.SetText("Cosa potrebbe accadere se si cade vittima di un attacco di phishing?");
+            testoRisposta1.SetText("I tuoi dati personali potrebbero essere rubati e utilizzati per scopi fraudolenti");
+            testoRisposta2.SetText("Potresti ricevere più spam nella tua casella di posta elettronica");
             riquadroDomanda.SetActive(true);
         }
     }

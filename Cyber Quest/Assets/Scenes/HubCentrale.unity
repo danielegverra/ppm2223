@@ -3145,6 +3145,27 @@ PrefabInstance:
       objectReference: {fileID: 13400000, guid: af4e0dca690de0f4e8d4b60aea1bbffe, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea798cfb4939d4441b95d1bd39d0767f, type: 3}
+--- !u!1 &1097706531 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8828072308360339534, guid: ea798cfb4939d4441b95d1bd39d0767f, type: 3}
+  m_PrefabInstance: {fileID: 1097706530}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1097706532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097706531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0eb1f617b7543be920f3747eedb043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pulsanteInterazione: {fileID: 2120040876}
+  trigger: {fileID: 1097706531}
+  animator: {fileID: 1929992931}
+  IDporta: portoneFinale
 --- !u!1 &1128704090
 GameObject:
   m_ObjectHideFlags: 0
@@ -5541,6 +5562,11 @@ Transform:
 --- !u!4 &1929992928 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 451040, guid: ea798cfb4939d4441b95d1bd39d0767f, type: 3}
+  m_PrefabInstance: {fileID: 1097706530}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1929992931 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9574882, guid: ea798cfb4939d4441b95d1bd39d0767f, type: 3}
   m_PrefabInstance: {fileID: 1097706530}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1942410985
