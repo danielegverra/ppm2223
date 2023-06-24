@@ -41,7 +41,7 @@ public class ChiaveTutorial : MonoBehaviour
 
     private void Update() {
         if (isClose) {
-            if (Input.GetKeyDown(KeyCode.E) && !istaken) {
+            if (Input.GetKeyDown(KeyCode.E) && !istaken && Dialogue.hasReadDialogues) {
                 casellaDialogo.SetActive(true);
                 textComponent.text = string.Empty;
                 StartDialogue();
