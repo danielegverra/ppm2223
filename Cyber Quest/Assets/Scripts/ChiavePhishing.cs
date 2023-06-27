@@ -33,6 +33,7 @@ public class ChiavePhishing : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E) && !istaken) {
                 pulsanteInterazione.SetActive(false);
                 istaken = true;
+                Audio.audio = 2;
                 chiave.SetActive(false);
                 Inventario.obiettiviPhis[1] = "";
                 Inventario.vettoreInv[2] = 1;

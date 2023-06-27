@@ -47,6 +47,7 @@ public class ChiaveTutorial : MonoBehaviour
                 StartDialogue();
                 pulsanteInterazione.SetActive(false);
                 istaken = true;
+                Audio.audio = 2;
                 chiave.SetActive(false);
                 Inventario.obiettiviTut[0] = "";
                 Inventario.vettoreInv[0] = 1;

@@ -44,6 +44,7 @@ public class Altare : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E) && !isActivated) {
                 pulsanteInterazione.SetActive(false);
                 isActivated = true;
+                Audio.audio = 9;
                 chiave.SetActive(true);
                 cerchio.SetActive(true);
                 numeroPortaliAttivati++;

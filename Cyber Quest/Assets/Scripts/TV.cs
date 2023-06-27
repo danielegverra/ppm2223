@@ -49,6 +49,7 @@ public class TV : MonoBehaviour
                 personaggio.SetActive(false);
                 camera.SetActive(false);
                 pulsanteInterazione.SetActive(false);
+                Audio.audio = 7;
                 mostraDomanda();
             }
 
@@ -61,6 +62,7 @@ public class TV : MonoBehaviour
                     clickRisposta = 3;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
                     tvIndovinate++;
                     imageul1.SetActive(true);
                     imageul2.SetActive(true);
@@ -81,6 +83,7 @@ public class TV : MonoBehaviour
                     clickRisposta = 3;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
                     tvIndovinate++;
                     imageur1.SetActive(true);
                     imageur2.SetActive(true);
@@ -100,6 +103,7 @@ public class TV : MonoBehaviour
                     clickRisposta = 3;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
                     tvIndovinate++;
                     imagedl1.SetActive(true);
                     imagedl2.SetActive(true);
@@ -120,6 +124,7 @@ public class TV : MonoBehaviour
                     clickRisposta = 3;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
                     tvIndovinate++;
                     imagedr1.SetActive(true);
                     imagedr2.SetActive(true);
@@ -194,5 +199,6 @@ public class TV : MonoBehaviour
     public void perdiVita() {
         Inventario.nPoints -= 5;
         ControlloHp.hpInt--;
+        Audio.audio = 5;
     }
 }

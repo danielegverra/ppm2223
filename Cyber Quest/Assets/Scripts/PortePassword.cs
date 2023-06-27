@@ -36,6 +36,7 @@ public class PortePassword : MonoBehaviour {
                     clickRisposta = 4;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -48,6 +49,7 @@ public class PortePassword : MonoBehaviour {
                     clickRisposta = 4;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -60,6 +62,7 @@ public class PortePassword : MonoBehaviour {
                     clickRisposta = 4;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -72,6 +75,7 @@ public class PortePassword : MonoBehaviour {
                     clickRisposta = 4;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -84,6 +88,7 @@ public class PortePassword : MonoBehaviour {
                     clickRisposta = 4;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -96,6 +101,7 @@ public class PortePassword : MonoBehaviour {
                     clickRisposta = 4;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -108,6 +114,7 @@ public class PortePassword : MonoBehaviour {
                     clickRisposta = 4;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -132,6 +139,7 @@ public class PortePassword : MonoBehaviour {
                     clickRisposta = 4;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -144,6 +152,7 @@ public class PortePassword : MonoBehaviour {
                     clickRisposta = 4;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -156,6 +165,7 @@ public class PortePassword : MonoBehaviour {
                     clickRisposta = 4;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -168,6 +178,7 @@ public class PortePassword : MonoBehaviour {
                     clickRisposta = 4;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -307,6 +318,7 @@ public class PortePassword : MonoBehaviour {
     public void perdiVita() {
         Inventario.nPoints -= 5;
         ControlloHp.hpInt--;
+        Audio.audio = 5;
     }
 
 }

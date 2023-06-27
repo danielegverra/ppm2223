@@ -11,6 +11,7 @@ public class Teletrasporto : MonoBehaviour
     void OnTriggerEnter(Collider other) {
         if (other.gameObject.CompareTag("Player")) {
             pulsanteInterazione.SetActive(true);
+            Audio.audio = 1;
             isClose = true;
         }
     }

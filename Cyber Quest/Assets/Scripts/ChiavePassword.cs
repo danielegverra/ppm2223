@@ -33,6 +33,7 @@ public class ChiavePassword : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E) && !istaken) {
                 pulsanteInterazione.SetActive(false);
                 istaken = true;
+                Audio.audio = 2;
                 chiave.SetActive(false);
                 Inventario.obiettiviPass[0] = "";
                 Inventario.vettoreInv[1] = 1;

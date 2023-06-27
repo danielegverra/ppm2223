@@ -29,6 +29,7 @@ public class Collezionabile : MonoBehaviour
     private void Update() {
         if (isClose) {
             if (Input.GetKeyDown(KeyCode.E) && !istaken) {
+                Audio.audio = 3;
                 pulsanteInterazione.SetActive(false);
                 istaken = true;
                 collezionabile.SetActive(false);

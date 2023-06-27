@@ -26,6 +26,7 @@ public class ControlloHp : MonoBehaviour
     {
         hp.SetText(hpInt.ToString());
         if(hpInt == 0 && !isDead) {
+            Audio.audio = 8;
             morto.SetActive(true);
             domanda.SetActive(false);
             isDead = true;
