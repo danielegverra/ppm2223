@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Dialogue : MonoBehaviour {
     public TextMeshProUGUI textComponent;
+    public static bool hasReadHubDialogues = false;
     public static bool hasReadDialogues = false;
     public string[] lines;
     public float textSpeed;
@@ -13,8 +15,18 @@ public class Dialogue : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
-        textComponent.text = string.Empty;
-        StartDialogue();
+        if(SceneManager.GetActiveScene().name == "HubCentrale"){
+            if (!hasReadHubDialogues){
+                textComponent.text = string.Empty;
+                StartDialogue();
+                hasReadHubDialogues = true;
+            } else {
+                gameObject.SetActive(false);
+            }
+        } else {
+            textComponent.text = string.Empty;
+            StartDialogue();
+        }
     }
 
     // Update is called once per frame

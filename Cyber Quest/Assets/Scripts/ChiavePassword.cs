@@ -36,9 +36,8 @@ public class ChiavePassword : MonoBehaviour
                 chiave.SetActive(false);
                 Inventario.obiettiviPass[0] = "";
                 Inventario.vettoreInv[1] = 1;
-                if(Inventario.obiettiviPass[1] == ""){
-                    teletrasporto.SetActive(true);
-                }
+                teletrasporto.SetActive(true);
+
             }
         }
     }

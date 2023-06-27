@@ -30,7 +30,7 @@ public class ControlloHp : MonoBehaviour
             domanda.SetActive(false);
             isDead = true;
         }
-        if (isDead && Input.GetMouseButtonDown(0)) {
+        if (isDead && Input.GetMouseButtonDown(0) && SceneManager.GetActiveScene().name == "PasswordAmbientazione") {
             Inventario.obiettiviPass[0] = "Trova la chiave del portone";
             Inventario.obiettiviPass[1] = "Trova il potenziamento";
             Inventario.vettoreInv[1] = 0;
@@ -38,5 +38,13 @@ public class ControlloHp : MonoBehaviour
             Inventario.nPoints = pointIngresso;
             SceneManager.LoadScene("PasswordAmbientazione");
         }
+        if (isDead && Input.GetMouseButtonDown(0) && SceneManager.GetActiveScene().name == "PhishingAmbientazione") {
+            Inventario.obiettiviPass[0] = "Completa il puzzle";
+            Inventario.obiettiviPass[1] = "Trova la chiave del portone";
+            Inventario.vettoreInv[2] = 0;
+            Inventario.nPoints = pointIngresso;
+            SceneManager.LoadScene("PhishingAmbientazione");
+        }
+
     }
 }
