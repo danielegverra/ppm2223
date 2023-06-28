@@ -34,7 +34,7 @@ public class Cartello : MonoBehaviour
                 pulsanteInterazione.SetActive(false);
             }
         }
-        if (Input.GetMouseButtonDown(0) && !Dialogue.hasReadDialogues && thisDialogueActive) {
+        if (Input.GetMouseButtonDown(0) && thisDialogueActive) {
             if (textComponent.text == lines[index]) {
                 NextLine();
             }

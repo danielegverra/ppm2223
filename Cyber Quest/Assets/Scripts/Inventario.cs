@@ -9,6 +9,8 @@ public class Inventario : MonoBehaviour
 {
 
     bool isopen;
+    public static string slot = "0";
+    public static string nomeGiocatore = "Player";
     public static int[] vettoreInv = {0,0,0,0,0,0,0};
 
     public static string[] obiettiviTut = {"Prendi la chiave", "Apri la porta", "Entra nel cerchio magico"};

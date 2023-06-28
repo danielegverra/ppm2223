@@ -39,4 +39,8 @@ public class Menu : MonoBehaviour
         Application.Quit();
     }
 
+    public void setSlot(string number){
+        Inventario.slot = number;
+    }
+
 }

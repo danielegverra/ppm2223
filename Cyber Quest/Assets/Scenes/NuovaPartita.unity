@@ -774,6 +774,7 @@ GameObject:
   - component: {fileID: 822652464}
   - component: {fileID: 822652463}
   - component: {fileID: 822652462}
+  - component: {fileID: 822652468}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -905,6 +906,28 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &822652468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822652461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543f3f3ffdf258243b4b079274931c5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: {fileID: 0}
+  chiaveTut: {fileID: 0}
+  chiavePass: {fileID: 0}
+  chiavePhis: {fileID: 0}
+  chiaveMalw: {fileID: 0}
+  veleno: {fileID: 0}
+  mascherina: {fileID: 0}
+  occhiali: {fileID: 0}
+  inventario: {fileID: 0}
+  testoObiettivo: {fileID: 0}
 --- !u!1 &1116658164
 GameObject:
   m_ObjectHideFlags: 0
@@ -1144,6 +1167,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1282353720}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: setSlot
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 1
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1282353720}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
         m_MethodName: vaiTutorial

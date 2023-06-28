@@ -21,7 +21,8 @@ public class DoorInteraction : MonoBehaviour {
             if (Input.GetKeyDown(KeyCode.E) && IDporta == "portaPass" && Dialogue.hasReadDialogues) {
                 Audio.audio = 0;
                 // DA RISOLVERE
-                //trigger.SetActive(false);
+                trigger.SetActive(false);
+                Salvataggi.SalvaGioco();
                 SceneManager.LoadScene("PasswordAmbientazione");
                 pulsanteInterazione.SetActive(false);
             }
@@ -33,11 +34,13 @@ public class DoorInteraction : MonoBehaviour {
             }if(Input.GetKeyDown(KeyCode.E) && IDporta == "portaPhisLivello" && Dialogue.hasReadDialogues){
                 Audio.audio = 0;
                 pulsanteInterazione.SetActive(false);
+                Salvataggi.SalvaGioco();
                 SceneManager.LoadScene("PhishingAmbientazione");
                 trigger.SetActive(false);
             }if(Input.GetKeyDown(KeyCode.E) && IDporta == "portoneFinale" && Altare.numeroPortaliAttivati == 3 && Dialogue.hasReadDialogues){
                 Audio.audio = 0;
                 pulsanteInterazione.SetActive(false);
+                Salvataggi.SalvaGioco();
                 SceneManager.LoadScene("Menu");
                 trigger.SetActive(false);
             }
