@@ -29,6 +29,7 @@ public class ControlloHp : MonoBehaviour
             Audio.audio = 8;
             morto.SetActive(true);
             domanda.SetActive(false);
+            Cursor.visible = false;
             isDead = true;
         }
         if (isDead && Input.GetMouseButtonDown(0) && SceneManager.GetActiveScene().name == "PasswordAmbientazione") {

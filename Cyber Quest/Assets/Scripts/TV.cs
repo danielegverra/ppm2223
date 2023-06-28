@@ -63,6 +63,7 @@ public class TV : MonoBehaviour
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
                     Audio.audio = 4;
+                    Cursor.visible = false;
                     tvIndovinate++;
                     imageul1.SetActive(true);
                     imageul2.SetActive(true);
@@ -84,6 +85,7 @@ public class TV : MonoBehaviour
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
                     Audio.audio = 4;
+                    Cursor.visible = false;
                     tvIndovinate++;
                     imageur1.SetActive(true);
                     imageur2.SetActive(true);
@@ -104,6 +106,7 @@ public class TV : MonoBehaviour
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
                     Audio.audio = 4;
+                    Cursor.visible = false;
                     tvIndovinate++;
                     imagedl1.SetActive(true);
                     imagedl2.SetActive(true);
@@ -125,6 +128,7 @@ public class TV : MonoBehaviour
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
                     Audio.audio = 4;
+                    Cursor.visible = false;
                     tvIndovinate++;
                     imagedr1.SetActive(true);
                     imagedr2.SetActive(true);

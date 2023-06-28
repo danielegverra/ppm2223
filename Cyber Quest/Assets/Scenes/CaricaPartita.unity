@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731704, g: 0.13414727, b: 0.121078536, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414736, b: 0.12107852, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 48539987}
   - component: {fileID: 48539986}
   - component: {fileID: 48539985}
+  - component: {fileID: 48539989}
   m_Layer: 5
   m_Name: slot3Button
   m_TagString: Untagged
@@ -222,7 +223,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 48539987}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 48539989}
+        m_TargetAssemblyTypeName: Salvataggi, Assembly-CSharp
+        m_MethodName: CaricaGioco
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 3
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &48539987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -261,6 +274,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 48539983}
   m_CullTransparentMesh: 1
+--- !u!114 &48539989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48539983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3757162b48b688345bd1f49bc76518c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &462494371
 GameObject:
   m_ObjectHideFlags: 0
@@ -842,6 +867,7 @@ GameObject:
   - component: {fileID: 1157995033}
   - component: {fileID: 1157995032}
   - component: {fileID: 1157995031}
+  - component: {fileID: 1157995035}
   m_Layer: 5
   m_Name: slot1Button
   m_TagString: Untagged
@@ -929,16 +955,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1157995029}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1157995035}
+        m_TargetAssemblyTypeName: Salvataggi, Assembly-CSharp
+        m_MethodName: CaricaGioco
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1157995033
@@ -979,6 +1005,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1157995029}
   m_CullTransparentMesh: 1
+--- !u!114 &1157995035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157995029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3757162b48b688345bd1f49bc76518c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1185757356
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,6 +1304,7 @@ GameObject:
   - component: {fileID: 1400816866}
   - component: {fileID: 1400816865}
   - component: {fileID: 1400816864}
+  - component: {fileID: 1400816868}
   m_Layer: 5
   m_Name: slot2Button
   m_TagString: Untagged
@@ -1352,7 +1391,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1400816866}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1400816868}
+        m_TargetAssemblyTypeName: Salvataggi, Assembly-CSharp
+        m_MethodName: CaricaGioco
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 2
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1400816866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1391,6 +1442,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1400816862}
   m_CullTransparentMesh: 1
+--- !u!114 &1400816868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400816862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3757162b48b688345bd1f49bc76518c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1653402074
 GameObject:
   m_ObjectHideFlags: 0

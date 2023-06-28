@@ -18,11 +18,10 @@ public class DoorInteraction : MonoBehaviour {
                 pulsanteInterazione.SetActive(false);
                 Inventario.obiettiviTut[1] = "";
             }
-            if (Input.GetKeyDown(KeyCode.E) && IDporta == "portaPass" && Dialogue.hasReadDialogues) {
+            if (Input.GetKeyDown(KeyCode.E) && IDporta == "portaPass" && Dialogue.hasReadDialogues && Inventario.vettoreInv[1] == 0) {
                 Audio.audio = 0;
-                // DA RISOLVERE
                 trigger.SetActive(false);
-                Salvataggi.SalvaGioco();
+                Salvataggi.SalvaGioco("PasswordAmbientazione");
                 SceneManager.LoadScene("PasswordAmbientazione");
                 pulsanteInterazione.SetActive(false);
             }
@@ -31,17 +30,18 @@ public class DoorInteraction : MonoBehaviour {
                 animator.SetTrigger("character_nearby");
                 pulsanteInterazione.SetActive(false);
                 trigger.SetActive(false);
-            }if(Input.GetKeyDown(KeyCode.E) && IDporta == "portaPhisLivello" && Dialogue.hasReadDialogues){
+            }if(Input.GetKeyDown(KeyCode.E) && IDporta == "portaPhisLivello" && Dialogue.hasReadDialogues && Inventario.vettoreInv[2] == 0){
                 Audio.audio = 0;
                 pulsanteInterazione.SetActive(false);
-                Salvataggi.SalvaGioco();
+                Salvataggi.SalvaGioco("PhishingAmbientazione");
                 SceneManager.LoadScene("PhishingAmbientazione");
                 trigger.SetActive(false);
             }if(Input.GetKeyDown(KeyCode.E) && IDporta == "portoneFinale" && Altare.numeroPortaliAttivati == 3 && Dialogue.hasReadDialogues){
                 Audio.audio = 0;
                 pulsanteInterazione.SetActive(false);
-                Salvataggi.SalvaGioco();
+                Salvataggi.SalvaGioco("HubCentrale");
                 SceneManager.LoadScene("Menu");
+                Cursor.visible = true;
                 trigger.SetActive(false);
             }
         }

@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public static class Salvataggi
+public class Salvataggi : MonoBehaviour
 {
-    public static void SalvaGioco()
+    public static void SalvaGioco(string room)
     {
         DatiGioco salvataggio = new DatiGioco(Inventario.slot, Inventario.nomeGiocatore,
-            SceneManager.GetActiveScene().name, Inventario.nPoints, Altare.altariAttivi,
+            room, Inventario.nPoints, Altare.altariAttivi,
             Inventario.vettoreInv);
         string datiJson = JsonUtility.ToJson(salvataggio);
         PlayerPrefs.SetString(GetKey(Inventario.slot), datiJson);

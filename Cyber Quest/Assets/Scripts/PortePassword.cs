@@ -37,6 +37,7 @@ public class PortePassword : MonoBehaviour {
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
                     Audio.audio = 4;
+                    Cursor.visible = false;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -50,6 +51,7 @@ public class PortePassword : MonoBehaviour {
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
                     Audio.audio = 4;
+                    Cursor.visible = false;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -63,6 +65,7 @@ public class PortePassword : MonoBehaviour {
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
                     Audio.audio = 4;
+                    Cursor.visible = false;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -76,6 +79,7 @@ public class PortePassword : MonoBehaviour {
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
                     Audio.audio = 4;
+                    Cursor.visible = false;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -89,6 +93,7 @@ public class PortePassword : MonoBehaviour {
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
                     Audio.audio = 4;
+                    Cursor.visible = false;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -102,6 +107,7 @@ public class PortePassword : MonoBehaviour {
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
                     Audio.audio = 4;
+                    Cursor.visible = false;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -115,6 +121,7 @@ public class PortePassword : MonoBehaviour {
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
                     Audio.audio = 4;
+                    Cursor.visible = false;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -127,6 +134,8 @@ public class PortePassword : MonoBehaviour {
                     clickRisposta = 4;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
+                    Cursor.visible = false;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -140,6 +149,7 @@ public class PortePassword : MonoBehaviour {
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
                     Audio.audio = 4;
+                    Cursor.visible = false;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -153,6 +163,7 @@ public class PortePassword : MonoBehaviour {
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
                     Audio.audio = 4;
+                    Cursor.visible = false;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -166,6 +177,7 @@ public class PortePassword : MonoBehaviour {
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
                     Audio.audio = 4;
+                    Cursor.visible = false;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -179,6 +191,7 @@ public class PortePassword : MonoBehaviour {
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
                     Audio.audio = 4;
+                    Cursor.visible = false;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();

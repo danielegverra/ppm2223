@@ -33,7 +33,7 @@ public class Teletrasporto : MonoBehaviour
     }
 
     public void vaiHubCentrale(){
-        Salvataggi.SalvaGioco();
+        Salvataggi.SalvaGioco("HubCentrale");
         SceneManager.LoadScene("HubCentrale");
     }
 }
