@@ -14,11 +14,13 @@ ScriptsOnlyBuild:
     - DoorInteraction
     - Inventario
     - Menu
+    - NomiClassifica
     - Opzioni
     - Pausa
     - PortePassword
     - Salvataggi
     - SimpleSampleCharacterControl
+    - StampaNomi
     - TV
     - Teletrasporto
     Cinemachine.dll:
@@ -35,6 +37,7 @@ ScriptsOnlyBuild:
     Unity.TextMeshPro.dll:
     - TMPro.TMP_Dropdown
     - TMPro.TMP_FontAsset
+    - TMPro.TMP_InputField
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
@@ -42,8 +45,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -51,12 +56,14 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.GridLayoutGroup
     - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.Mask
     - UnityEngine.UI.Outline
     - UnityEngine.UI.RectMask2D
@@ -86,6 +93,11 @@ ScriptsOnlyBuild:
     - TMPro.TMP_GlyphAdjustmentRecord
     - TMPro.TMP_GlyphPairAdjustmentRecord
     - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_InputField/OnChangeEvent
+    - TMPro.TMP_InputField/SelectionEvent
+    - TMPro.TMP_InputField/SubmitEvent
+    - TMPro.TMP_InputField/TextSelectionEvent
+    - TMPro.TMP_InputField/TouchScreenKeyboardEvent
     - TMPro.TMP_Sprite
     - TMPro.TMP_SpriteCharacter
     - TMPro.TMP_SpriteGlyph
@@ -102,6 +114,8 @@ ScriptsOnlyBuild:
     - UnityEngine.TextCore.GlyphMetrics
     - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
+    - UnityEngine.EventSystems.EventTrigger/Entry
+    - UnityEngine.EventSystems.EventTrigger/TriggerEvent
     - UnityEngine.UI.AnimationTriggers
     - UnityEngine.UI.Button/ButtonClickedEvent
     - UnityEngine.UI.ColorBlock
@@ -116,55 +130,109 @@ ScriptsOnlyBuild:
     methodName: vaiOpzioni
   - assembly: Assembly-CSharp
     fullTypeName: Menu
+    methodName: rumorinoBottone
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
     methodName: vaiCaricaPartita
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
+    methodName: rumorinoBottone
   - assembly: Assembly-CSharp
     fullTypeName: Menu
     methodName: vaiCrediti
   - assembly: Assembly-CSharp
     fullTypeName: Menu
+    methodName: rumorinoBottone
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
     methodName: vaiNuovaPartita
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
+    methodName: rumorinoBottone
   - assembly: Assembly-CSharp
     fullTypeName: Menu
     methodName: vaiClassifica
   - assembly: Assembly-CSharp
     fullTypeName: Menu
+    methodName: rumorinoBottone
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
     methodName: esci
   - assembly: Assembly-CSharp
     fullTypeName: Menu
-    methodName: setSlot
+    methodName: rumorinoBottone
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
+    methodName: setName
   - assembly: Assembly-CSharp
     fullTypeName: Menu
     methodName: vaiTutorial
   - assembly: Assembly-CSharp
     fullTypeName: Menu
-    methodName: setSlot
-  - assembly: Assembly-CSharp
-    fullTypeName: Menu
-    methodName: vaiTutorial
+    methodName: rumorinoBottone
   - assembly: Assembly-CSharp
     fullTypeName: Menu
     methodName: setSlot
   - assembly: Assembly-CSharp
     fullTypeName: Menu
-    methodName: vaiTutorial
+    methodName: apriCasellaNome
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
+    methodName: rumorinoBottone
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
+    methodName: setSlot
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
+    methodName: apriCasellaNome
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
+    methodName: rumorinoBottone
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
+    methodName: setSlot
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
+    methodName: apriCasellaNome
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
+    methodName: rumorinoBottone
   - assembly: Assembly-CSharp
     fullTypeName: Menu
     methodName: vaiMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
+    methodName: rumorinoBottone
   - assembly: Assembly-CSharp
     fullTypeName: Salvataggi
     methodName: CaricaGioco
   - assembly: Assembly-CSharp
     fullTypeName: Menu
+    methodName: rumorinoBottone
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
     methodName: vaiMenu
   - assembly: Assembly-CSharp
-    fullTypeName: Salvataggi
-    methodName: CaricaGioco
+    fullTypeName: Menu
+    methodName: rumorinoBottone
   - assembly: Assembly-CSharp
     fullTypeName: Salvataggi
     methodName: CaricaGioco
   - assembly: Assembly-CSharp
     fullTypeName: Menu
+    methodName: rumorinoBottone
+  - assembly: Assembly-CSharp
+    fullTypeName: Salvataggi
+    methodName: CaricaGioco
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
+    methodName: rumorinoBottone
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
     methodName: vaiMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
+    methodName: rumorinoBottone
   - assembly: Assembly-CSharp
     fullTypeName: Opzioni
     methodName: TendinaRisoluzioni
@@ -174,6 +242,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Menu
     methodName: vaiMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
+    methodName: rumorinoBottone
   - assembly: Assembly-CSharp
     fullTypeName: Pausa
     methodName: Play
@@ -239,6 +310,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -262,9 +337,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6582}
     - Class: 114
+      Script: {instanceID: 6966}
+    - Class: 114
       Script: {instanceID: 7388}
     - Class: 114
       Script: {instanceID: 7560}
+    - Class: 114
+      Script: {instanceID: 25710}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -294,6 +373,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -317,7 +400,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6582}
     - Class: 114
+      Script: {instanceID: 6966}
+    - Class: 114
       Script: {instanceID: 7560}
+    - Class: 114
+      Script: {instanceID: 32474}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -347,6 +434,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -362,10 +453,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3146}
     - Class: 114
-      Script: {instanceID: 3934}
-    - Class: 114
-      Script: {instanceID: 4162}
-    - Class: 114
       Script: {instanceID: 5176}
     - Class: 114
       Script: {instanceID: 5914}
@@ -374,7 +461,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6582}
     - Class: 114
-      Script: {instanceID: 7298}
+      Script: {instanceID: 6966}
     - Class: 114
       Script: {instanceID: 7560}
     - Class: 115
@@ -541,6 +628,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -570,15 +661,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6582}
     - Class: 114
+      Script: {instanceID: 6966}
+    - Class: 114
       Script: {instanceID: 7560}
     - Class: 114
-      Script: {instanceID: 46672}
+      Script: {instanceID: 52004}
     - Class: 114
-      Script: {instanceID: 46680}
+      Script: {instanceID: 52012}
     - Class: 114
-      Script: {instanceID: 46682}
+      Script: {instanceID: 52014}
     - Class: 114
-      Script: {instanceID: 46684}
+      Script: {instanceID: 52016}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -610,6 +703,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -619,11 +716,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1594}
     - Class: 114
+      Script: {instanceID: 1728}
+    - Class: 114
       Script: {instanceID: 2648}
     - Class: 114
       Script: {instanceID: 2850}
     - Class: 114
       Script: {instanceID: 3146}
+    - Class: 114
+      Script: {instanceID: 4162}
+    - Class: 114
+      Script: {instanceID: 4992}
     - Class: 114
       Script: {instanceID: 5176}
     - Class: 114
@@ -635,8 +738,14 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6582}
     - Class: 114
+      Script: {instanceID: 6966}
+    - Class: 114
       Script: {instanceID: 7560}
+    - Class: 114
+      Script: {instanceID: 25710}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -2231,7 +2340,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseOverMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 8a1093ffec755d802279665e582e5c2e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Menu
@@ -2331,6 +2440,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d7bd1a9b36b52c5f4454ccf4b91db46c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StampaNomi
+  - hash:
+      serializedVersion: 2
+      Hash: 6ea794bf6b6978a27b1631849b44b3d8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NomiClassifica
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menu.unity

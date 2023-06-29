@@ -26,6 +26,7 @@ public class Salvataggi : MonoBehaviour
             Inventario.nomeGiocatore = caricamento.nomeGiocatore;
             Inventario.nPoints = caricamento.punteggio;
             Altare.altariAttivi = caricamento.altari;
+            Altare.numeroPortaliAttivati = Altare.altariAttivi[0] + Altare.altariAttivi[1] + Altare.altariAttivi[2];
             Inventario.vettoreInv = caricamento.vettoreInv;
             SceneManager.LoadScene(caricamento.stanza);
         }
