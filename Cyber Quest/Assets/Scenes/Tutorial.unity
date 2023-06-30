@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.06364745, g: 0.13541344, b: 0.36719856, a: 1}
+  m_IndirectSpecularColor: {r: 0.063576564, g: 0.13543034, b: 0.36733216, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2455,7 +2455,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1322306602}
-  m_LocalRotation: {x: 0.07088901, y: -0.000000018227162, z: 0.0000000012953641, w: 0.9974842}
+  m_LocalRotation: {x: 0.070889026, y: 0.000000016643243, z: -0.000000001182799, w: 0.9974842}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2688,6 +2688,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 278efbee092a31847b7ac0cc588d5eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  casellaNome: {fileID: 0}
+  casella: {fileID: 0}
 --- !u!1 &1527472754
 GameObject:
   m_ObjectHideFlags: 3
@@ -2757,7 +2759,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1527472754}
-  m_LocalRotation: {x: 0.052733563, y: -0.000000017182444, z: 9.073539e-10, w: 0.99860865}
+  m_LocalRotation: {x: 0.052733563, y: 0.000000017182439, z: -9.0735364e-10, w: 0.99860865}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3455,6 +3457,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 278efbee092a31847b7ac0cc588d5eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  casellaNome: {fileID: 0}
+  casella: {fileID: 0}
 --- !u!1001 &1832848959
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3880,7 +3884,7 @@ AudioSource:
   m_GameObject: {fileID: 2068779678}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 86e4726558410d24a80741cab95f46e3, type: 2}
   m_audioClip: {fileID: 8300000, guid: 6eebe58e54de24fd69a765855563ae79, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -5935,10 +5939,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2801304619028355329, guid: 10d431467601a464d86bf8a4c535dd96, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 8a2becf69e5f79d4bb9af53d49553ad0, type: 2}
+    - target: {fileID: 2801304619028355330, guid: 10d431467601a464d86bf8a4c535dd96, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 8a2becf69e5f79d4bb9af53d49553ad0, type: 2}
+    - target: {fileID: 2801304619028355331, guid: 10d431467601a464d86bf8a4c535dd96, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 8a2becf69e5f79d4bb9af53d49553ad0, type: 2}
     - target: {fileID: 2801304619028355386, guid: 10d431467601a464d86bf8a4c535dd96, type: 3}
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 2801304619028355388, guid: 10d431467601a464d86bf8a4c535dd96, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 8a2becf69e5f79d4bb9af53d49553ad0, type: 2}
     - target: {fileID: 2801304619028355391, guid: 10d431467601a464d86bf8a4c535dd96, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -5965,11 +5985,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2801304619028355391, guid: 10d431467601a464d86bf8a4c535dd96, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000017580549
+      value: 0.000000017580545
       objectReference: {fileID: 0}
     - target: {fileID: 2801304619028355391, guid: 10d431467601a464d86bf8a4c535dd96, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 9.2837665e-10
+      value: -9.2837643e-10
       objectReference: {fileID: 0}
     - target: {fileID: 2801304619028355391, guid: 10d431467601a464d86bf8a4c535dd96, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
