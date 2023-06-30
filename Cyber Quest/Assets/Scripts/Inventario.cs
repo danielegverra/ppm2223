@@ -16,6 +16,8 @@ public class Inventario : MonoBehaviour
     public static float volumeMusica = -15;
     public static float volumeSuoni = -15;
 
+    public static bool bottoneFullScreen = true;
+
     public static string[] obiettiviTut = {"Prendi la chiave", "Apri la porta", "Entra nel cerchio magico"};
     public static string[] obiettiviHub = {"Termina le 2 prove", "Attiva i 3 altari" , "Apri il portone"};
     public static string[] obiettiviPass = {"Trova la chiave del portone", "Trova il potenziamento", "Raccogli i collezionabili"};
