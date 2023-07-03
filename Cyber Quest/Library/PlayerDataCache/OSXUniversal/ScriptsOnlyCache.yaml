@@ -46,8 +46,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -256,20 +258,14 @@ ScriptsOnlyBuild:
     fullTypeName: Menu
     methodName: rumorinoBottone
   - assembly: Assembly-CSharp
+    fullTypeName: Menu
+    methodName: vaiMenu
+  - assembly: Assembly-CSharp
     fullTypeName: Pausa
     methodName: Play
   - assembly: Assembly-CSharp
     fullTypeName: Menu
     methodName: vaiMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: Menu
-    methodName: vaiOpzioni
-  - assembly: Assembly-CSharp
-    fullTypeName: Menu
-    methodName: vaiMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: Menu
-    methodName: vaiOpzioni
   - assembly: Assembly-CSharp
     fullTypeName: Pausa
     methodName: Play
@@ -290,22 +286,16 @@ ScriptsOnlyBuild:
     methodName: Play
   - assembly: Assembly-CSharp
     fullTypeName: Menu
-    methodName: vaiOpzioni
+    methodName: vaiMenu
   - assembly: Assembly-CSharp
     fullTypeName: Pausa
     methodName: Play
-  - assembly: Assembly-CSharp
-    fullTypeName: Menu
-    methodName: vaiMenu
   - assembly: Assembly-CSharp
     fullTypeName: TV
     methodName: clickRisposta2
   - assembly: Assembly-CSharp
     fullTypeName: TV
     methodName: clickRisposta1
-  - assembly: Assembly-CSharp
-    fullTypeName: Menu
-    methodName: vaiOpzioni
   sceneClasses:
     Assets/Scenes/CaricaPartita.unity:
     - Class: 1
