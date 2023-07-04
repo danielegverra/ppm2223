@@ -15,7 +15,11 @@ public class ChiavePhishing : MonoBehaviour
 
     void OnTriggerEnter(Collider other) {
         if (other.gameObject.CompareTag("Player") && !istaken){
-            pulsanteInterazione.SetActive(true);
+            if (Dialogue.hasReadDialogues){
+                pulsanteInterazione.SetActive(true);
+            } else {
+                pulsanteAvvisoDialogo.SetActive(true);
+            }
             isClose = true;
         }
     }
@@ -23,14 +27,14 @@ public class ChiavePhishing : MonoBehaviour
     void OnTriggerExit(Collider other) {
         if (other.gameObject.CompareTag("Player") && !istaken) {
             pulsanteInterazione.SetActive(false);
-            //pulsanteAvvisoDialogo.SetActive(false);
+            pulsanteAvvisoDialogo.SetActive(false);
             isClose = false;
         }
     }
 
     private void Update() {
         if (isClose) {
-            if (Input.GetKeyDown(KeyCode.E) && !istaken) {
+            if (Input.GetKeyDown(KeyCode.E) && !istaken && Dialogue.hasReadDialogues) {
                 pulsanteInterazione.SetActive(false);
                 istaken = true;
                 Audio.audio = 2;

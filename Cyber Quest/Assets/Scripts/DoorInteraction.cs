@@ -40,7 +40,7 @@ public class DoorInteraction : MonoBehaviour {
                 Audio.audio = 0;
                 pulsanteInterazione.SetActive(false);
                 Salvataggi.SalvaGioco("HubCentrale");
-                SceneManager.LoadScene("Menu");
+                SceneManager.LoadScene("Crediti");
                 Cursor.visible = true;
                 trigger.SetActive(false);
             }
