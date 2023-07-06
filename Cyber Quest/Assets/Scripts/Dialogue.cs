@@ -6,8 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Dialogue : MonoBehaviour {
     public TextMeshProUGUI textComponent;
-    public static bool hasReadHubDialogues = false;
-    public static bool hasReadDialogues = false;
+    public static bool hasReadDialogues;
     public string[] lines;
     public float textSpeed;
 
@@ -15,14 +14,11 @@ public class Dialogue : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
-        if(SceneManager.GetActiveScene().name == "HubCentrale"){
-            if (!hasReadHubDialogues){
-                textComponent.text = string.Empty;
-                StartDialogue();
-                hasReadHubDialogues = true;
-            } else {
-                gameObject.SetActive(false);
-            }
+        hasReadDialogues = false;
+        if(SceneManager.GetActiveScene().name == "HubCentrale" && Inventario.vettoreInv[1] + Inventario.vettoreInv[2] > 0){
+            lines = new string[]{};
+            hasReadDialogues = true;
+            gameObject.SetActive(false);
         } else {
             textComponent.text = string.Empty;
             StartDialogue();

@@ -11,7 +11,7 @@ public class Altare : MonoBehaviour
     bool isActivated = false;
     bool isClose = false;
 
-    static int[] altariAttivi={0,0,0};
+    public static int[] altariAttivi={0,0,0};
 
     public string IDaltare;
     public static int numeroPortaliAttivati = 0;
@@ -44,6 +44,7 @@ public class Altare : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E) && !isActivated) {
                 pulsanteInterazione.SetActive(false);
                 isActivated = true;
+                Audio.audio = 9;
                 chiave.SetActive(true);
                 cerchio.SetActive(true);
                 numeroPortaliAttivati++;

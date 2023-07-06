@@ -5,6 +5,7 @@ using TMPro;
 public class PortePassword : MonoBehaviour {
     private bool isClose = false;
     public GameObject pulsanteInterazione;
+    public GameObject pulsanteAvvisoDialogo;
     public GameObject trigger;
     public Animator animator;
     public string IDporta; 
@@ -19,7 +20,7 @@ public class PortePassword : MonoBehaviour {
 
     private void Update() {
         if (isClose) {
-            if (Input.GetKeyDown(KeyCode.E)) {
+            if (Input.GetKeyDown(KeyCode.E) && Dialogue.hasReadDialogues) {
                 personaggio.SetActive(false);
                 camera.SetActive(false);
                 pulsanteInterazione.SetActive(false);
@@ -36,6 +37,8 @@ public class PortePassword : MonoBehaviour {
                     clickRisposta = 4;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
+                    Cursor.visible = false;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -48,6 +51,8 @@ public class PortePassword : MonoBehaviour {
                     clickRisposta = 4;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
+                    Cursor.visible = false;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -60,6 +65,8 @@ public class PortePassword : MonoBehaviour {
                     clickRisposta = 4;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
+                    Cursor.visible = false;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -72,6 +79,8 @@ public class PortePassword : MonoBehaviour {
                     clickRisposta = 4;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
+                    Cursor.visible = false;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -84,6 +93,8 @@ public class PortePassword : MonoBehaviour {
                     clickRisposta = 4;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
+                    Cursor.visible = false;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -96,6 +107,8 @@ public class PortePassword : MonoBehaviour {
                     clickRisposta = 4;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
+                    Cursor.visible = false;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -108,6 +121,8 @@ public class PortePassword : MonoBehaviour {
                     clickRisposta = 4;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
+                    Cursor.visible = false;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -120,6 +135,8 @@ public class PortePassword : MonoBehaviour {
                     clickRisposta = 4;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
+                    Cursor.visible = false;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -132,6 +149,8 @@ public class PortePassword : MonoBehaviour {
                     clickRisposta = 4;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
+                    Cursor.visible = false;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -144,6 +163,8 @@ public class PortePassword : MonoBehaviour {
                     clickRisposta = 4;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
+                    Cursor.visible = false;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -156,6 +177,8 @@ public class PortePassword : MonoBehaviour {
                     clickRisposta = 4;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
+                    Cursor.visible = false;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -168,6 +191,8 @@ public class PortePassword : MonoBehaviour {
                     clickRisposta = 4;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
+                    Cursor.visible = false;
                     trigger.SetActive(false);
                 } else {
                     perdiVita();
@@ -283,13 +308,18 @@ public class PortePassword : MonoBehaviour {
     void OnTriggerExit(Collider other) {
         if (other.gameObject.CompareTag("Player")) {
             pulsanteInterazione.SetActive(false);
+            pulsanteAvvisoDialogo.SetActive(false);
             isClose = false;
         }
     }
 
     public void Interact() {
-        pulsanteInterazione.SetActive(true);
-        isClose = !isClose;
+        if (Dialogue.hasReadDialogues){
+            pulsanteInterazione.SetActive(true);
+        } else {
+            pulsanteAvvisoDialogo.SetActive(true);
+        }
+        isClose = true;
     }
 
     public void clickRisposta1() {
@@ -307,6 +337,7 @@ public class PortePassword : MonoBehaviour {
     public void perdiVita() {
         Inventario.nPoints -= 5;
         ControlloHp.hpInt--;
+        Audio.audio = 5;
     }
 
 }

@@ -11,6 +11,7 @@ public class Teletrasporto : MonoBehaviour
     void OnTriggerEnter(Collider other) {
         if (other.gameObject.CompareTag("Player")) {
             pulsanteInterazione.SetActive(true);
+            Audio.audio = 1;
             isClose = true;
         }
     }
@@ -32,6 +33,7 @@ public class Teletrasporto : MonoBehaviour
     }
 
     public void vaiHubCentrale(){
+        Salvataggi.SalvaGioco("HubCentrale");
         SceneManager.LoadScene("HubCentrale");
     }
 }

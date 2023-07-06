@@ -8,6 +8,7 @@ public class TV : MonoBehaviour
 
     private bool isClose = false;
     public GameObject pulsanteInterazione;
+    public GameObject pulsanteAvvisoDialogo;
     public GameObject trigger;
     public GameObject chiave;
 
@@ -45,10 +46,11 @@ public class TV : MonoBehaviour
     void Update()
     {
         if (isClose) {
-            if (Input.GetKeyDown(KeyCode.E)) {
+            if (Input.GetKeyDown(KeyCode.E) && Dialogue.hasReadDialogues) {
                 personaggio.SetActive(false);
                 camera.SetActive(false);
                 pulsanteInterazione.SetActive(false);
+                Audio.audio = 7;
                 mostraDomanda();
             }
 
@@ -61,6 +63,8 @@ public class TV : MonoBehaviour
                     clickRisposta = 3;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
+                    Cursor.visible = false;
                     tvIndovinate++;
                     imageul1.SetActive(true);
                     imageul2.SetActive(true);
@@ -81,6 +85,8 @@ public class TV : MonoBehaviour
                     clickRisposta = 3;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
+                    Cursor.visible = false;
                     tvIndovinate++;
                     imageur1.SetActive(true);
                     imageur2.SetActive(true);
@@ -100,6 +106,8 @@ public class TV : MonoBehaviour
                     clickRisposta = 3;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
+                    Cursor.visible = false;
                     tvIndovinate++;
                     imagedl1.SetActive(true);
                     imagedl2.SetActive(true);
@@ -120,6 +128,8 @@ public class TV : MonoBehaviour
                     clickRisposta = 3;
                     camera.SetActive(true);
                     Inventario.nPoints += 10;
+                    Audio.audio = 4;
+                    Cursor.visible = false;
                     tvIndovinate++;
                     imagedr1.SetActive(true);
                     imagedr2.SetActive(true);
@@ -146,13 +156,18 @@ public class TV : MonoBehaviour
     void OnTriggerExit(Collider other) {
         if (other.gameObject.CompareTag("Player")) {
             pulsanteInterazione.SetActive(false);
+            pulsanteAvvisoDialogo.SetActive(false);
             isClose = false;
         }
     }
 
     public void Interact() {
-        pulsanteInterazione.SetActive(true);
-        isClose = !isClose;
+        if (Dialogue.hasReadDialogues){
+            pulsanteInterazione.SetActive(true);
+        } else {
+            pulsanteAvvisoDialogo.SetActive(true);
+        }
+        isClose = true;
     }
 
     public void clickRisposta1() {
@@ -194,5 +209,6 @@ public class TV : MonoBehaviour
     public void perdiVita() {
         Inventario.nPoints -= 5;
         ControlloHp.hpInt--;
+        Audio.audio = 5;
     }
 }

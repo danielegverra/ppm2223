@@ -9,7 +9,14 @@ public class Inventario : MonoBehaviour
 {
 
     bool isopen;
+    public static string slot = "0";
+    public static string nomeGiocatore = "Player";
     public static int[] vettoreInv = {0,0,0,0,0,0,0};
+
+    public static float volumeMusica = -15;
+    public static float volumeSuoni = -15;
+
+    public static bool bottoneFullScreen = true;
 
     public static string[] obiettiviTut = {"Prendi la chiave", "Apri la porta", "Entra nel cerchio magico"};
     public static string[] obiettiviHub = {"Termina le 2 prove", "Attiva i 3 altari" , "Apri il portone"};

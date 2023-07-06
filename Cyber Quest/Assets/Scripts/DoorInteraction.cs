@@ -12,27 +12,36 @@ public class DoorInteraction : MonoBehaviour {
     private void Update() {
         if (isClose) {
             if (Input.GetKeyDown(KeyCode.E) && IDporta == "portaTut" && Dialogue.hasReadDialogues) {
+                Audio.audio = 0;
                 trigger.SetActive(false);
                 animator.SetTrigger("character_nearby");
                 pulsanteInterazione.SetActive(false);
                 Inventario.obiettiviTut[1] = "";
             }
-            if (Input.GetKeyDown(KeyCode.E) && IDporta == "portaPass" && Dialogue.hasReadDialogues) {
+            if (Input.GetKeyDown(KeyCode.E) && IDporta == "portaPass" && Dialogue.hasReadDialogues && Inventario.vettoreInv[1] == 0) {
+                Audio.audio = 0;
                 trigger.SetActive(false);
+                Salvataggi.SalvaGioco("PasswordAmbientazione");
                 SceneManager.LoadScene("PasswordAmbientazione");
                 pulsanteInterazione.SetActive(false);
             }
             if(Input.GetKeyDown(KeyCode.E) && IDporta == "portaPhis" && Dialogue.hasReadDialogues){
+                Audio.audio = 0;
                 animator.SetTrigger("character_nearby");
                 pulsanteInterazione.SetActive(false);
                 trigger.SetActive(false);
-            }if(Input.GetKeyDown(KeyCode.E) && IDporta == "portaPhisLivello" && Dialogue.hasReadDialogues){
+            }if(Input.GetKeyDown(KeyCode.E) && IDporta == "portaPhisLivello" && Dialogue.hasReadDialogues && Inventario.vettoreInv[2] == 0){
+                Audio.audio = 0;
                 pulsanteInterazione.SetActive(false);
+                Salvataggi.SalvaGioco("PhishingAmbientazione");
                 SceneManager.LoadScene("PhishingAmbientazione");
                 trigger.SetActive(false);
             }if(Input.GetKeyDown(KeyCode.E) && IDporta == "portoneFinale" && Altare.numeroPortaliAttivati == 3 && Dialogue.hasReadDialogues){
+                Audio.audio = 0;
                 pulsanteInterazione.SetActive(false);
-                SceneManager.LoadScene("Menu");
+                Salvataggi.SalvaGioco("HubCentrale");
+                SceneManager.LoadScene("Crediti");
+                Cursor.visible = true;
                 trigger.SetActive(false);
             }
         }
