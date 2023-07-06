@@ -7,17 +7,17 @@ public class Audio : MonoBehaviour
     static public int audio = -1;
 
     /*
-        0 - Apri Porta SESSO
-        1 - Portale SESSO
-        2 - Raccogli chiave SESSO
-        3 - Raccogli collezionabili SESSO
-        4 - Risposta corretta SESSO
-        5 - Risposta sbagliata SESSO
+        0 - Apri Porta 
+        1 - Portale 
+        2 - Raccogli chiave 
+        3 - Raccogli collezionabili 
+        4 - Risposta corretta 
+        5 - Risposta sbagliata 
         6 - Cartelli 
-        7 - Schermi SESSO
-        8 - Morte SESSO
-        9 - Altare SESSO
-        x - Colonna sonora
+        7 - Schermi 
+        8 - Morte 
+        9 - Altare 
+        10 - Colonna sonora
     */
 
     // Update is called once per frame
