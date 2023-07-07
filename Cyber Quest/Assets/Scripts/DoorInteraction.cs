@@ -9,6 +9,8 @@ public class DoorInteraction : MonoBehaviour {
     public Animator animator;
     public string IDporta; 
 
+
+
     private void Update() {
         if (isClose) {
             if (Input.GetKeyDown(KeyCode.E) && IDporta == "portaTut" && Dialogue.hasReadDialogues) {
@@ -39,9 +41,9 @@ public class DoorInteraction : MonoBehaviour {
             }if(Input.GetKeyDown(KeyCode.E) && IDporta == "portoneFinale" && Altare.numeroPortaliAttivati == 3 && Dialogue.hasReadDialogues){
                 Audio.audio = 0;
                 pulsanteInterazione.SetActive(false);
-                Salvataggi.SalvaGioco("HubCentrale");
-                SceneManager.LoadScene("Crediti");
+                ControlloHp.hpInt = 5;
                 Cursor.visible = true;
+                Salvataggi.SalvaGioco("HubCentrale");
                 trigger.SetActive(false);
             }
         }
@@ -52,7 +54,15 @@ public class DoorInteraction : MonoBehaviour {
             Interact();
         }
         if (other.gameObject.CompareTag("Player") && IDporta != "portaTut" && IDporta != "portoneFinale") {
-            Interact();
+            if(IDporta == "portaPass" && Inventario.vettoreInv[1] == 0){
+                Interact();    
+            }
+            if(IDporta == "portaPhisLivello" && Inventario.vettoreInv[2] == 0){
+                Interact();    
+            }
+            if(IDporta != "portaPhisLivello" && IDporta != "portaPass"){
+                Interact();    
+            }
         }
         if (other.gameObject.CompareTag("Player") && IDporta == "portoneFinale" && Altare.numeroPortaliAttivati == 3){
             Interact();
@@ -75,5 +85,6 @@ public class DoorInteraction : MonoBehaviour {
         }
         isClose = true;
     }
+
 
 }

@@ -1,597 +1,458 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1688661711241619, "dur": 2498393, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1688661711241977, "dur": 14813, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1688661711256794, "dur": 47540, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1688661711304336, "dur": 771576, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1688661712075914, "dur": 1654633, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1688661713730549, "dur": 9461, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1688661713740551, "dur": 10, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
-{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
-{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 35942, "tid": 1, "ts": 1688661711882865, "dur": 165474, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1688661711883731, "dur": 60822, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1688661712029967, "dur": 4860, "ph": "X", "name": "OutputData.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1688661712034847, "dur": 13485, "ph": "X", "name": "Backend.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1688661712035487, "dur": 12184, "ph": "X", "name": "JsonToString", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1688661712054181, "dur": 1264, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1688661712052461, "dur": 3013, "ph": "X", "name": "Write chrome-trace events", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1688661713740662, "dur": 338, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688746321301035, "dur": 441893, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688746321301264, "dur": 7058, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688746321308324, "dur": 421007, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688746321729334, "dur": 13594, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688746321743598, "dur": 22, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1688661712113761, "dur":1666, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688661712115432, "dur":563, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1688661712116026, "dur":322, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1688661712116348, "dur":240, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1688661712116612, "dur":683, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688661712117295, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688661713714060, "dur":77, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688661713714137, "dur":41, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688661713714178, "dur":52, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688661713714230, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688661713714237, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688661713714239, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688661713714245, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688661713714247, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688661713714251, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688661713714252, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688661713714257, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688661713714259, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688661713714262, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688661713714264, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688661713714269, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688661713714270, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688661713714276, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688661713714295, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688661713714315, "dur":1716, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1688661712116993, "dur":359, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688661712117358, "dur":3540, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688661712120906, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1688661712120912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688661712122634, "dur":335, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1688661712122975, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1688661712123018, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688661712123159, "dur":2185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1688661712125347, "dur":13979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1688661712139329, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688661712139338, "dur":1651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1688661712141025, "dur":49388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest.exe" }}
-,{ "pid":12345, "tid":1, "ts":1688661712190419, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688661712190430, "dur":1936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest.exe" }}
-,{ "pid":12345, "tid":1, "ts":1688661712192400, "dur":50296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661712242702, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688661712242713, "dur":1266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661712244019, "dur":25269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661712269296, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688661712269307, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661712270748, "dur":66724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661712337635, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688661712337648, "dur":3304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661712341106, "dur":70297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661712411408, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688661712411419, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661712412563, "dur":44417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661712456987, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688661712456999, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661712458022, "dur":34561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661712492591, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688661712492603, "dur":982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661712493620, "dur":40390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661712534022, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688661712534044, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661712535560, "dur":39774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661712575338, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688661712575350, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661712576360, "dur":26068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661712602434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688661712602446, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661712603663, "dur":40387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661712644055, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688661712644067, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661712645151, "dur":43051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661712688206, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688661712688216, "dur":1470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661712689721, "dur":81185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661712770910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688661712770919, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661712772309, "dur":600890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661713373203, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688661713373213, "dur":1720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661713374972, "dur":239722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661713614700, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688661713614735, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688661713615980, "dur":98059, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661712117372, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661712117373, "dur":3534, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661712120907, "dur":18396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1688661712139306, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661712139324, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1688661712140657, "dur":325780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688661712467515, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661712467527, "dur":25076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688661712492674, "dur":29104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688661712521782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661712521791, "dur":2776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688661712530044, "dur":80198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688661712610247, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661712610258, "dur":4856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688661712615150, "dur":32090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688661712647246, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661712647258, "dur":4642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688661712651939, "dur":22714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688661712674659, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661712674688, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688661712675800, "dur":64133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688661712739937, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661712739947, "dur":2687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688661712742671, "dur":104709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688661712847545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661712847559, "dur":1186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688661712848780, "dur":101246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688661712950034, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661712950046, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688661712951261, "dur":137723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688661713088992, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713089006, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688661713090279, "dur":286134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688661713376418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713376427, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688661713377754, "dur":462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":2, "ts":1688661713378220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713378295, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":2, "ts":1688661713379648, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets9.resource" }}
-,{ "pid":12345, "tid":2, "ts":1688661713379744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713379755, "dur":9351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets9.resource" }}
-,{ "pid":12345, "tid":2, "ts":1688661713389139, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets8.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1688661713389174, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713389179, "dur":54362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets8.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1688661713443582, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":2, "ts":1688661713443625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713443637, "dur":8852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":2, "ts":1688661713452525, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets4.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1688661713452571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713452579, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets4.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1688661713453698, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":2, "ts":1688661713453735, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713453740, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":2, "ts":1688661713454762, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1688661713454803, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713454809, "dur":1023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1688661713455870, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":2, "ts":1688661713455908, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713455914, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":2, "ts":1688661713457173, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":2, "ts":1688661713457210, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713457215, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":2, "ts":1688661713458262, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1688661713458379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713458385, "dur":1645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1688661713460072, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1688661713460113, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713460119, "dur":8630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1688661713468789, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/resources.assets" }}
-,{ "pid":12345, "tid":2, "ts":1688661713468832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713468844, "dur":1660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/resources.assets" }}
-,{ "pid":12345, "tid":2, "ts":1688661713470547, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level9.resS" }}
-,{ "pid":12345, "tid":2, "ts":1688661713470587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713470599, "dur":1531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level9.resS" }}
-,{ "pid":12345, "tid":2, "ts":1688661713472174, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level9" }}
-,{ "pid":12345, "tid":2, "ts":1688661713472220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713472228, "dur":1842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level9" }}
-,{ "pid":12345, "tid":2, "ts":1688661713474104, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level8.resS" }}
-,{ "pid":12345, "tid":2, "ts":1688661713474146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713474155, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level8.resS" }}
-,{ "pid":12345, "tid":2, "ts":1688661713475359, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level8" }}
-,{ "pid":12345, "tid":2, "ts":1688661713475397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713475403, "dur":3225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level8" }}
-,{ "pid":12345, "tid":2, "ts":1688661713478669, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level7.resS" }}
-,{ "pid":12345, "tid":2, "ts":1688661713478710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713478746, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level7.resS" }}
-,{ "pid":12345, "tid":2, "ts":1688661713479759, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level6.resS" }}
-,{ "pid":12345, "tid":2, "ts":1688661713479795, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713479800, "dur":2180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level6.resS" }}
-,{ "pid":12345, "tid":2, "ts":1688661713482018, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level6" }}
-,{ "pid":12345, "tid":2, "ts":1688661713482060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713482067, "dur":7819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level6" }}
-,{ "pid":12345, "tid":2, "ts":1688661713489919, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level5" }}
-,{ "pid":12345, "tid":2, "ts":1688661713489957, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713489963, "dur":8519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level5" }}
-,{ "pid":12345, "tid":2, "ts":1688661713498543, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level3.resS" }}
-,{ "pid":12345, "tid":2, "ts":1688661713498577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713498584, "dur":4843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level3.resS" }}
-,{ "pid":12345, "tid":2, "ts":1688661713503463, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level2.resS" }}
-,{ "pid":12345, "tid":2, "ts":1688661713503498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713503505, "dur":4205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level2.resS" }}
-,{ "pid":12345, "tid":2, "ts":1688661713507747, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level1.resS" }}
-,{ "pid":12345, "tid":2, "ts":1688661713507788, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713507795, "dur":5212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level1.resS" }}
-,{ "pid":12345, "tid":2, "ts":1688661713513058, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level1" }}
-,{ "pid":12345, "tid":2, "ts":1688661713513094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713513102, "dur":1451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level1" }}
-,{ "pid":12345, "tid":2, "ts":1688661713514605, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level0.resS" }}
-,{ "pid":12345, "tid":2, "ts":1688661713514686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713514695, "dur":1615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level0.resS" }}
-,{ "pid":12345, "tid":2, "ts":1688661713516345, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level0" }}
-,{ "pid":12345, "tid":2, "ts":1688661713516384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713516414, "dur":2234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level0" }}
-,{ "pid":12345, "tid":2, "ts":1688661713518684, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":2, "ts":1688661713518734, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688661713518740, "dur":909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":2, "ts":1688661713519684, "dur":194374, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688661712117826, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688661712117827, "dur":3072, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688661712120906, "dur":40272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1688661712161184, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688661712161543, "dur":1215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1688661712162842, "dur":59903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688661712222752, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688661712222764, "dur":1083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688661712223881, "dur":28605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688661712252490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688661712252498, "dur":2634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688661712255179, "dur":26640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688661712281827, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688661712282107, "dur":1203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688661712283344, "dur":209939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688661712493288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688661712493297, "dur":6789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688661712500193, "dur":118163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688661712618361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688661712618371, "dur":7257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688661712625667, "dur":24844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688661712650515, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688661712650524, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688661712651537, "dur":57779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688661712709323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688661712709334, "dur":1973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688661712711346, "dur":143674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688661712855026, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688661712855037, "dur":1206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688661712856277, "dur":136101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688661712992385, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688661712992397, "dur":1708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688661712994172, "dur":111982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688661713106160, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688661713106171, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688661713107286, "dur":246050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688661713353343, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688661713353355, "dur":2498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688661713355890, "dur":357071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688661713712967, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688661713712979, "dur":1008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688661713714012, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":3, "ts":1688661713714014, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688661712117132, "dur":279, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688661712117413, "dur":3487, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688661712120906, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1688661712121083, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688661712123780, "dur":2027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1688661712125861, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1688661712125974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688661712126390, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1688661712127718, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1688661712128092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688661712128153, "dur":4847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1688661712133055, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1688661712133380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688661712133400, "dur":1870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1688661712135308, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":4, "ts":1688661712135422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688661712135429, "dur":1635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":4, "ts":1688661712137102, "dur":65813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661712202922, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688661712203020, "dur":5197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661712208260, "dur":172694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661712380960, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688661712380972, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661712382121, "dur":27081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661712409209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688661712409221, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661712410404, "dur":48789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661712459196, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688661712459206, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661712460218, "dur":34339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661712494561, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688661712494570, "dur":2411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661712497016, "dur":49215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661712546237, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688661712546250, "dur":1709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661712547992, "dur":23715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661712571713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688661712571726, "dur":3031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661712574790, "dur":21228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661712596022, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688661712596033, "dur":1128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661712597199, "dur":95581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661712692784, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688661712692793, "dur":11286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661712704115, "dur":34191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661712738313, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688661712738328, "dur":1308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661712739676, "dur":139835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661712879518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688661712879529, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661712881189, "dur":259904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661713141099, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688661713141110, "dur":1286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661713142432, "dur":183647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661713326086, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688661713326097, "dur":2008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661713328162, "dur":370778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661713698952, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688661713698979, "dur":3581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688661713702584, "dur":11473, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688661712117357, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688661712117357, "dur":3579, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688661712120936, "dur":12590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1688661712133529, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688661712133605, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1688661712134733, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":5, "ts":1688661712134855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688661712134864, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":5, "ts":1688661712136093, "dur":3205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661712139304, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688661712139739, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661712141412, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":5, "ts":1688661712141812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688661712142052, "dur":7527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":5, "ts":1688661712149622, "dur":27034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661712176661, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688661712176741, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661712178038, "dur":25096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661712203138, "dur":117, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688661712203263, "dur":1558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661712204858, "dur":25563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661712230426, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688661712230436, "dur":3366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661712233903, "dur":25103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661712259010, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688661712259020, "dur":1593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661712260646, "dur":25275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661712285926, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688661712285937, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661712287404, "dur":252112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661712539522, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688661712539535, "dur":1716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661712541288, "dur":30418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661712571713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688661712571726, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661712572979, "dur":26274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661712599261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688661712599274, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661712600673, "dur":39525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661712640205, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688661712640217, "dur":1121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661712641373, "dur":45164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661712686543, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688661712686555, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661712687818, "dur":318044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661713005869, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688661713005909, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661713007274, "dur":52927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661713060208, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688661713060220, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661713061480, "dur":69983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661713131470, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688661713131482, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661713132742, "dur":57398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661713190147, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688661713190159, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661713191421, "dur":182250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661713373675, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688661713373684, "dur":1231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661713374956, "dur":248760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661713623722, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688661713623760, "dur":1252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688661713625047, "dur":88989, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661712117502, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661712117502, "dur":3470, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661712120972, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1688661712121094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661712123697, "dur":2098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1688661712125830, "dur":13608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1688661712139441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661712139448, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1688661712140938, "dur":34212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":6, "ts":1688661712175157, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661712175167, "dur":2305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":6, "ts":1688661712177907, "dur":52720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688661712230631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661712230639, "dur":2077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688661712232755, "dur":25929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688661712258690, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661712258702, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688661712260080, "dur":115502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688661712375586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661712375592, "dur":3888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688661712379543, "dur":83683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688661712463231, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661712463243, "dur":1521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688661712464838, "dur":82582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688661712547424, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661712547434, "dur":8075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688661712555609, "dur":251559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688661712807175, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661712807186, "dur":1321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688661712808541, "dur":492453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688661713301000, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661713301013, "dur":4177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688661713305224, "dur":73586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688661713378814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661713378822, "dur":1778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688661713380651, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets9.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1688661713380748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661713380757, "dur":5539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets9.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1688661713386334, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets9.assets" }}
-,{ "pid":12345, "tid":6, "ts":1688661713386395, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661713386403, "dur":2169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets9.assets" }}
-,{ "pid":12345, "tid":6, "ts":1688661713388606, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets8.resource" }}
-,{ "pid":12345, "tid":6, "ts":1688661713388641, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661713388648, "dur":18690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets8.resource" }}
-,{ "pid":12345, "tid":6, "ts":1688661713407382, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets7.resource" }}
-,{ "pid":12345, "tid":6, "ts":1688661713407422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661713407431, "dur":27486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets7.resource" }}
-,{ "pid":12345, "tid":6, "ts":1688661713435024, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets6.resource" }}
-,{ "pid":12345, "tid":6, "ts":1688661713435132, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661713435160, "dur":15458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets6.resource" }}
-,{ "pid":12345, "tid":6, "ts":1688661713450665, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":6, "ts":1688661713450709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661713450718, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":6, "ts":1688661713452756, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":6, "ts":1688661713452871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661713452877, "dur":1047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":6, "ts":1688661713453958, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":6, "ts":1688661713454023, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661713454028, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":6, "ts":1688661713455679, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":6, "ts":1688661713455716, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661713455721, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":6, "ts":1688661713456742, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1688661713456792, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661713456797, "dur":1946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1688661713458798, "dur":18438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":6, "ts":1688661713477242, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661713477253, "dur":2275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":6, "ts":1688661713479570, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level7" }}
-,{ "pid":12345, "tid":6, "ts":1688661713479620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661713479626, "dur":9662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level7" }}
-,{ "pid":12345, "tid":6, "ts":1688661713489451, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level5.resS" }}
-,{ "pid":12345, "tid":6, "ts":1688661713489495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661713489506, "dur":7895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level5.resS" }}
-,{ "pid":12345, "tid":6, "ts":1688661713497440, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level4" }}
-,{ "pid":12345, "tid":6, "ts":1688661713497530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661713497538, "dur":4598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level4" }}
-,{ "pid":12345, "tid":6, "ts":1688661713502172, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level3" }}
-,{ "pid":12345, "tid":6, "ts":1688661713502206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661713502214, "dur":14898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level3" }}
-,{ "pid":12345, "tid":6, "ts":1688661713517149, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":6, "ts":1688661713517190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661713517196, "dur":2207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":6, "ts":1688661713519440, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/boot.config" }}
-,{ "pid":12345, "tid":6, "ts":1688661713519554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688661713519560, "dur":797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/boot.config" }}
-,{ "pid":12345, "tid":6, "ts":1688661713520391, "dur":193666, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1688661712117605, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1688661712117606, "dur":3364, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1688661712120971, "dur":943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1688661712121916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1688661712123477, "dur":2251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1688661712125767, "dur":421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1688661712126210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1688661712126216, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1688661712127541, "dur":14256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":7, "ts":1688661712141801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1688661712141811, "dur":2039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":7, "ts":1688661712143892, "dur":108387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1688661712252286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1688661712252325, "dur":2586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1688661712254950, "dur":77022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1688661712331978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1688661712331990, "dur":3449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1688661712335482, "dur":40051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1688661712375540, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1688661712375551, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1688661712376884, "dur":154416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1688661712531307, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1688661712531320, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1688661712532685, "dur":73377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1688661712606067, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1688661712607072, "dur":1227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1688661712608355, "dur":40190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1688661712648549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1688661712648558, "dur":3114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1688661712651709, "dur":41052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1688661712692767, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1688661712692779, "dur":11309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1688661712704123, "dur":64745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":7, "ts":1688661712768876, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1688661712768889, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":7, "ts":1688661712770241, "dur":127455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":7, "ts":1688661712897703, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1688661712897715, "dur":2563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":7, "ts":1688661712900319, "dur":202497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":7, "ts":1688661713102822, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1688661713102835, "dur":1709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":7, "ts":1688661713104580, "dur":268038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":7, "ts":1688661713372625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1688661713372667, "dur":25669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":7, "ts":1688661713398374, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets8.assets" }}
-,{ "pid":12345, "tid":7, "ts":1688661713398414, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1688661713398424, "dur":11049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets8.assets" }}
-,{ "pid":12345, "tid":7, "ts":1688661713409523, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets7.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1688661713409563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1688661713409571, "dur":19888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets7.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1688661713429499, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets7.assets" }}
-,{ "pid":12345, "tid":7, "ts":1688661713429552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1688661713429560, "dur":5200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets7.assets" }}
-,{ "pid":12345, "tid":7, "ts":1688661713436510, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets6.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1688661713436581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1688661713436589, "dur":57160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets6.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1688661713493801, "dur":1079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level4.resS" }}
-,{ "pid":12345, "tid":7, "ts":1688661713494885, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1688661713494895, "dur":9366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level4.resS" }}
-,{ "pid":12345, "tid":7, "ts":1688661713504294, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level2" }}
-,{ "pid":12345, "tid":7, "ts":1688661713504370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1688661713508478, "dur":12060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level2" }}
-,{ "pid":12345, "tid":7, "ts":1688661713520608, "dur":193430, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1688661712117776, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1688661712117777, "dur":3158, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1688661712120935, "dur":902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1688661712121841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1688661712123558, "dur":2253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1688661712125846, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1688661712125967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1688661712126138, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1688661712127865, "dur":15057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1688661712142925, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1688661712142933, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1688661712144127, "dur":31216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661712175346, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1688661712175960, "dur":1860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661712177952, "dur":49719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661712227677, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1688661712227688, "dur":1670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661712229395, "dur":29737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661712259135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1688661712259142, "dur":1878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661712261053, "dur":70954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661712332012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1688661712332020, "dur":3556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661712335612, "dur":51315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661712386934, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1688661712386947, "dur":2092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661712389077, "dur":68600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661712457790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1688661712457800, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661712458830, "dur":35010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661712493844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1688661712493851, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661712494833, "dur":26828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661712521668, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1688661712521681, "dur":1748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661712523463, "dur":25778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661712549245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1688661712549253, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661712550215, "dur":43984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661712594233, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1688661712594247, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661712595438, "dur":20710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661712616176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1688661712616186, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661712617506, "dur":174295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661712791807, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1688661712791820, "dur":2542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661712794402, "dur":219275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661713013684, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1688661713013696, "dur":1754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661713015484, "dur":230362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661713245853, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1688661713245866, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661713247086, "dur":322428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661713569521, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1688661713569534, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":8, "ts":1688661713571202, "dur":142839, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688661713717744, "dur":1496, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1688661713741065, "dur": 529, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1688661713740538, "dur": 1073, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1688746321340448, "dur":1409, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688746321341869, "dur":153, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1688746321342059, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1688746321342076, "dur":258, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1688746321342351, "dur":578, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688746321342929, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688746321710060, "dur":186, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688746321710246, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688746321710252, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688746321710253, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688746321710262, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688746321710266, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688746321710271, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688746321710272, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688746321710292, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688746321710294, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688746321710305, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688746321710306, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688746321710312, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688746321710313, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688746321710318, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688746321710319, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688746321710325, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688746321710339, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688746321710360, "dur":1298, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1688746321343441, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688746321343441, "dur":3282, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688746321346727, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1688746321346811, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688746321346895, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1688746321346941, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688746321346972, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688746321347021, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688746321347056, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1688746321347096, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688746321347130, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688746321347175, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688746321347208, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688746321347260, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688746321347292, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688746321347352, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688746321347385, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688746321347417, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688746321347447, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688746321347486, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688746321347521, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688746321347563, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688746321347596, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688746321347631, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688746321347662, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688746321347871, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688746321347954, "dur":142425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688746321490380, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688746321490469, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":1, "ts":1688746321490520, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688746321490531, "dur":15346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":1, "ts":1688746321505917, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1688746321505957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688746321505966, "dur":1634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1688746321507634, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level9" }}
+,{ "pid":12345, "tid":1, "ts":1688746321507676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688746321507682, "dur":7168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level9" }}
+,{ "pid":12345, "tid":1, "ts":1688746321514889, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level7.resS" }}
+,{ "pid":12345, "tid":1, "ts":1688746321514970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688746321514979, "dur":2440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level7.resS" }}
+,{ "pid":12345, "tid":1, "ts":1688746321517460, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level6.resS" }}
+,{ "pid":12345, "tid":1, "ts":1688746321517504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688746321517514, "dur":2364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level6.resS" }}
+,{ "pid":12345, "tid":1, "ts":1688746321519919, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level4.resS" }}
+,{ "pid":12345, "tid":1, "ts":1688746321519961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688746321519967, "dur":2885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level4.resS" }}
+,{ "pid":12345, "tid":1, "ts":1688746321522909, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1688746321522963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688746321522969, "dur":1554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1688746321524558, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1688746321524599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688746321524604, "dur":2482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1688746321527123, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1688746321527423, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688746321527573, "dur":182503, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321343429, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321343430, "dur":3349, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321346780, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1688746321346845, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321346883, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1688746321346949, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321346978, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347017, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347057, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347110, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347141, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347179, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347211, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347255, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347304, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347345, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347375, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347410, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347441, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347486, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347518, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347555, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347585, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347616, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347646, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347734, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347766, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347804, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347856, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347886, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347917, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347948, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321347976, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321348010, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321348039, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321348081, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321348115, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321348148, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321348175, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321348204, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321348232, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321348263, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321348291, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321348324, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321348351, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321348381, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321348410, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321348441, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321348469, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321348501, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321348530, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321348562, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321348590, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321348620, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321348648, "dur":240071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321588731, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688746321588842, "dur":1142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688746321590022, "dur":120049, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688746321343789, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688746321343789, "dur":2966, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688746321346755, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1688746321346837, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688746321346893, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1688746321346934, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688746321346969, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1688746321347010, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688746321347060, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688746321347116, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688746321347147, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688746321347187, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688746321347223, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688746321347255, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688746321347287, "dur":281750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688746321629038, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688746321629138, "dur":80920, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688746321342900, "dur":121, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688746321343022, "dur":3703, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688746321346727, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1688746321346954, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688746321346986, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1688746321347023, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688746321347088, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688746321347132, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688746321347180, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688746321347216, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688746321347250, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688746321347284, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688746321347319, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688746321347362, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688746321347395, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688746321347428, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688746321347457, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688746321347490, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688746321347525, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688746321347562, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688746321347593, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688746321347626, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688746321347656, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688746321347863, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688746321347922, "dur":78017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688746321425940, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688746321426037, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1688746321426127, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688746321427017, "dur":2930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1688746321429989, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets9.resource" }}
+,{ "pid":12345, "tid":4, "ts":1688746321430034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688746321430042, "dur":9791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets9.resource" }}
+,{ "pid":12345, "tid":4, "ts":1688746321439874, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1688746321439920, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688746321439929, "dur":8816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1688746321448789, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":4, "ts":1688746321448837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688746321448847, "dur":2062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":4, "ts":1688746321450951, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets8.resource" }}
+,{ "pid":12345, "tid":4, "ts":1688746321450996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688746321451005, "dur":6642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets8.resource" }}
+,{ "pid":12345, "tid":4, "ts":1688746321457686, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets8.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1688746321457729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688746321457739, "dur":17058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets8.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1688746321474836, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":4, "ts":1688746321474877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688746321474884, "dur":4865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":4, "ts":1688746321479784, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":4, "ts":1688746321479823, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688746321479829, "dur":13191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":4, "ts":1688746321493059, "dur":14645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1688746321507710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688746321507717, "dur":43418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1688746321551178, "dur":158874, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688746321343227, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688746321343227, "dur":3493, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688746321346727, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1688746321346815, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688746321346851, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1688746321346889, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688746321346918, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1688746321346954, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688746321346984, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688746321347023, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688746321347062, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688746321347101, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688746321347135, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688746321347169, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688746321347203, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688746321347235, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688746321347264, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688746321347308, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688746321347350, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688746321347389, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688746321347420, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688746321347455, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688746321347487, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688746321347522, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688746321347566, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688746321347600, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688746321347636, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688746321347669, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688746321347866, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688746321347923, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688746321347958, "dur":361974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688746321709933, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688746321710010, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1688746321710011, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688746321343385, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688746321343386, "dur":3394, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688746321346781, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1688746321346852, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688746321346889, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1688746321346924, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688746321347074, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688746321347168, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688746321347210, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688746321347255, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688746321347289, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688746321347363, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688746321347402, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688746321347440, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688746321347472, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688746321347504, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688746321347535, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688746321347569, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688746321347599, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688746321347642, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688746321347669, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688746321347870, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688746321347953, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688746321347995, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688746321348028, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688746321348063, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688746321348103, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688746321348137, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688746321348165, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688746321348196, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688746321348224, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688746321348255, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688746321348282, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688746321348311, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688746321348340, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688746321348370, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688746321348397, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688746321348428, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688746321348457, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688746321348487, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688746321348517, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688746321348549, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688746321348577, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688746321348608, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688746321348635, "dur":251233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688746321599869, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688746321599951, "dur":110121, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321343039, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321343039, "dur":3726, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321346765, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1688746321346858, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321346897, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1688746321346933, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321346967, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1688746321347004, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321347058, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688746321347105, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321347144, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688746321347187, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321347246, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688746321347282, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321347322, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688746321347363, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321347407, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688746321347440, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321347485, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688746321347517, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321347547, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688746321347577, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321347604, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688746321347636, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321347783, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688746321347830, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321347874, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688746321347906, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321347934, "dur":126554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688746321474489, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321474592, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":7, "ts":1688746321474672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321474681, "dur":3698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":7, "ts":1688746321478420, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688746321478462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321478471, "dur":14798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688746321493307, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":7, "ts":1688746321493352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321493390, "dur":2719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":7, "ts":1688746321496151, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":7, "ts":1688746321496194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321496203, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":7, "ts":1688746321497420, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688746321497462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321497471, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688746321498450, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":7, "ts":1688746321498492, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321498498, "dur":760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":7, "ts":1688746321499322, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1688746321499364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321499370, "dur":844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1688746321500249, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1688746321500290, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321500296, "dur":1098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1688746321501432, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688746321501476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321501483, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688746321502293, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1688746321502330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321502336, "dur":910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1688746321503281, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688746321503319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321503325, "dur":1568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688746321504933, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688746321504976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321505015, "dur":1834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688746321506930, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level9.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688746321506974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321506981, "dur":869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level9.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688746321507889, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level8.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688746321507941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321507947, "dur":7033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level8.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688746321515052, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level7" }}
+,{ "pid":12345, "tid":7, "ts":1688746321515110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321515117, "dur":2638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level7" }}
+,{ "pid":12345, "tid":7, "ts":1688746321517791, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level6" }}
+,{ "pid":12345, "tid":7, "ts":1688746321517836, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321517842, "dur":1610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level6" }}
+,{ "pid":12345, "tid":7, "ts":1688746321519487, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level5" }}
+,{ "pid":12345, "tid":7, "ts":1688746321519525, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321519532, "dur":954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level5" }}
+,{ "pid":12345, "tid":7, "ts":1688746321520557, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level3.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688746321520609, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321520614, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level3.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688746321521667, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1688746321521707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321521714, "dur":2361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1688746321524115, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688746321524156, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321524162, "dur":1083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688746321525305, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1688746321525346, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321525352, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1688746321526698, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1688746321526744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688746321526751, "dur":4263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1688746321531066, "dur":179003, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321342868, "dur":79, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321342950, "dur":3768, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321346727, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1688746321346730, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321346799, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1688746321346801, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321346854, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1688746321346895, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321346927, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1688746321346964, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321346994, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest.exe" }}
+,{ "pid":12345, "tid":8, "ts":1688746321347032, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321347066, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688746321347129, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321347283, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688746321347336, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321347368, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688746321347403, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321347445, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688746321347486, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321347526, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688746321347564, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321347598, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688746321347633, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321347666, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688746321347788, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321347851, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688746321347883, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321347930, "dur":154086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688746321502016, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321502076, "dur":529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1688746321502612, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321502623, "dur":1029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1688746321503685, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1688746321503724, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321503730, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1688746321504739, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1688746321504864, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321504913, "dur":3023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1688746321507936, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321507984, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level8" }}
+,{ "pid":12345, "tid":8, "ts":1688746321508028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321508033, "dur":9897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level8" }}
+,{ "pid":12345, "tid":8, "ts":1688746321517976, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level5.resS" }}
+,{ "pid":12345, "tid":8, "ts":1688746321518020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321518027, "dur":2046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level5.resS" }}
+,{ "pid":12345, "tid":8, "ts":1688746321520117, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1688746321520171, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321520177, "dur":2426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1688746321522643, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1688746321522684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321522693, "dur":1747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1688746321524478, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1688746321524521, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321524527, "dur":1012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1688746321525575, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1688746321525617, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688746321525633, "dur":2110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/franc/cyber-quest/Build/Windows/Cyber Quest_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1688746321527786, "dur":182303, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688746321712735, "dur":1526, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1688746321743692, "dur": 640, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688746321743586, "dur": 773, "ph": "X", "name": "Write chrome-trace events", "args": {} },
