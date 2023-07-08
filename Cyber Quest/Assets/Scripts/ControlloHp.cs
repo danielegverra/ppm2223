@@ -12,6 +12,8 @@ public class ControlloHp : MonoBehaviour
     public GameObject domanda;
     public GameObject morto;
     public bool isDead = false;
+    public GameObject vittoria;
+    bool isWin = false;
 
 
     // Start is called before the first frame update
@@ -46,6 +48,15 @@ public class ControlloHp : MonoBehaviour
             Inventario.vettoreInv[2] = 0;
             Inventario.nPoints = pointIngresso;
             SceneManager.LoadScene("PhishingAmbientazione");
+        }
+        if (hpInt == 5 ){
+            vittoria.SetActive(true);
+            Time.timeScale = 0f;
+            isWin = true;
+        }
+        if(isWin == true && Input.GetMouseButtonDown(0)){
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("Crediti");
         }
 
     }
